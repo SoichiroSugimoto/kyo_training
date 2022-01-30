@@ -4,7 +4,7 @@
 rm cloudtech_quiz_bot.zip
 
 cd cloudtech_quiz_bot
-python -m pip install LINE-bot-sdk pynamodb -t .
+pip3 install LINE-bot-sdk pynamodb -t .
 cd ..
 
 # compress
