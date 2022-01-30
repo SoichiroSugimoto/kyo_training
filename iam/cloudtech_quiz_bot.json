@@ -1,0 +1,38 @@
+{
+    "Version": "2012-10-17",
+    "Statement": [
+        {
+            "Effect": "Allow",
+            "Action": "logs:CreateLogGroup",
+            "Resource": "arn:aws:logs:ap-northeast-1:XXXXXXXXXXXX:*"
+        },
+        {
+            "Effect": "Allow",
+            "Action": [
+                "logs:CreateLogStream",
+                "logs:PutLogEvents"
+            ],
+            "Resource": [
+                "arn:aws:logs:ap-northeast-1:XXXXXXXXXXXX:log-group:/aws/lambda/cloudtech_quiz_bot:*"
+            ]
+        },
+        {
+            "Effect": "Allow",
+            "Action": [
+                "dynamodb:CreateTable",
+                "dynamodb:DescribeTable",
+                "dynamodb:PutItem",
+                "dynamodb:GetItem",
+                "dynamodb:DeleteItem"
+            ],
+            "Resource": "arn:aws:dynamodb:ap-northeast-1:XXXXXXXXXXXX:table/UserScore"
+        },
+        {
+            "Effect": "Allow",
+            "Action": [
+                "dynamodb:GetItem"
+            ],
+            "Resource": "arn:aws:dynamodb:ap-northeast-1:XXXXXXXXXXXX:table/Score"
+        }
+    ]
+}
