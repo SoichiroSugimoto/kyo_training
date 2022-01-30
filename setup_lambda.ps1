@@ -1,0 +1,1 @@
+Compress-Archive ./cloudtech_quiz_bot/* ./cloudtech_quiz_bot.zip
