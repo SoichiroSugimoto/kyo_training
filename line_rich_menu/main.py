@@ -7,7 +7,7 @@ from linebot.models import RichMenuArea
 from linebot.models import RichMenuBounds
 from linebot.models import MessageAction
 
-load_dotenv()
+load_dotenv('.env')
 LINE_CHANNEL_ACCESS_TOKEN = os.getenv('LINE_CHANNEL_ACCESS_TOKEN', None)
 line_bot = LineBotApi(LINE_CHANNEL_ACCESS_TOKEN)
 
