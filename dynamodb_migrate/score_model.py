@@ -1,7 +1,9 @@
-
 import os
+from dotenv import load_dotenv
 from pynamodb.models import Model
 from pynamodb.attributes import UnicodeAttribute,NumberAttribute
+
+load_dotenv('.env')
 
 class Score(Model):
   class Meta:
