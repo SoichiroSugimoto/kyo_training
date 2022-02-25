@@ -4,7 +4,7 @@
         {
             "Effect": "Allow",
             "Action": "logs:CreateLogGroup",
-            "Resource": "arn:aws:logs:ap-northeast-1:XXXXXXXXXXXX:*"
+            "Resource": "arn:aws:logs:ap-northeast-1:955616296169:*"
         },
         {
             "Effect": "Allow",
@@ -13,7 +13,7 @@
                 "logs:PutLogEvents"
             ],
             "Resource": [
-                "arn:aws:logs:ap-northeast-1:XXXXXXXXXXXX:log-group:/aws/lambda/cloudtech_quiz_bot:*"
+                "arn:aws:logs:ap-northeast-1:955616296169:log-group:/aws/lambda/cloudtech_quiz_bot:*"
             ]
         },
         {
@@ -25,14 +25,14 @@
                 "dynamodb:GetItem",
                 "dynamodb:DeleteItem"
             ],
-            "Resource": "arn:aws:dynamodb:ap-northeast-1:XXXXXXXXXXXX:table/UserScore"
+            "Resource": "arn:aws:dynamodb:ap-northeast-1:955616296169:table/UserScore"
         },
         {
             "Effect": "Allow",
             "Action": [
                 "dynamodb:GetItem"
             ],
-            "Resource": "arn:aws:dynamodb:ap-northeast-1:XXXXXXXXXXXX:table/Score"
+            "Resource": "arn:aws:dynamodb:ap-northeast-1:955616296169:table/Score"
         }
     ]
 }

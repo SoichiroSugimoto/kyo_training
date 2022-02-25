@@ -442,5 +442,153 @@
         }
       ]
     }
+  },
+  "q4":{
+    "type": "bubble",
+    "direction": "ltr",
+    "body": {
+      "type": "box",
+      "layout": "vertical",
+      "contents": [
+        {
+          "type": "box",
+          "layout": "vertical",
+          "contents": [
+            {
+              "type": "text",
+              "text": "第3問",
+              "align": "start",
+              "contents": []
+            },
+            {
+              "type": "text",
+              "text": "AWSは、DirectConnectというサービスを提供しています。DirectConnetの説明として正しいものは次のうちどれですか？",
+              "weight": "regular",
+              "align": "start",
+              "margin": "sm",
+              "wrap": true,
+              "contents": []
+            }
+          ]
+        },
+        {
+          "type": "box",
+          "layout": "vertical",
+          "contents": [
+            {
+              "type": "text",
+              "text": "1.自社オンプレミス環境とAWS環境を専用線で接続するネットワークサービス",
+              "weight": "regular",
+              "size": "md",
+              "align": "start",
+              "gravity": "center",
+              "margin": "xxl",
+              "wrap": true,
+              "contents": []
+            },
+            {
+              "type": "text",
+              "text": "2.オンプレミス環境とAWSをVPNで接続するネットワークサービス",
+              "weight": "regular",
+              "size": "md",
+              "align": "start",
+              "gravity": "center",
+              "margin": "md",
+              "wrap": true,
+              "contents": []
+            },
+            {
+              "type": "text",
+              "text": "3.GCP,AZUREのパブリッククラウドとAWSを専用線で接続するネットワークサービス",
+              "weight": "regular",
+              "size": "md",
+              "align": "start",
+              "gravity": "center",
+              "margin": "md",
+              "wrap": true,
+              "contents": []
+            },
+            {
+              "type": "text",
+              "text": "4.GCP,AZUREのパブリッククラウドとAWSをインターネットVPNで接続するネットワークサービス",
+              "weight": "regular",
+              "size": "md",
+              "align": "start",
+              "gravity": "center",
+              "margin": "md",
+              "wrap": true,
+              "contents": []
+            }
+          ]
+        }
+      ]
+    },
+    "footer": {
+      "type": "box",
+      "layout": "horizontal",
+      "contents": [
+        {
+          "type": "box",
+          "layout": "vertical",
+          "spacing": "lg",
+          "margin": "md",
+          "contents": [
+            {
+              "type": "button",
+              "action": {
+                "type": "message",
+                "label": "1",
+                "text": "1"
+              },
+              "margin": "md",
+              "height": "sm",
+              "style": "primary",
+              "offsetTop": "0px",
+              "offsetBottom": "3px"
+            },
+            {
+              "type": "button",
+              "action": {
+                "type": "message",
+                "label": "2",
+                "text": "2"
+              },
+              "margin": "md",
+              "height": "sm",
+              "style": "primary",
+              "position": "relative",
+              "offsetTop": "1px",
+              "offsetBottom": "1px"
+            },
+            {
+              "type": "button",
+              "action": {
+                "type": "message",
+                "label": "3",
+                "text": "3"
+              },
+              "height": "sm",
+              "style": "primary",
+              "offsetTop": "1px",
+              "offsetBottom": "1px"
+            },
+            {
+              "type": "button",
+              "action": {
+                "type": "message",
+                "label": "4",
+                "text": "4"
+              },
+              "height": "sm",
+              "style": "primary",
+              "offsetTop": "1px",
+              "offsetBottom": "1px",
+              "offsetStart": "0px",
+              "offsetEnd": "0px"
+            }
+          ]
+        }
+      ]
+    }
   }
 }
