@@ -18,6 +18,8 @@ class ScoreMap(MapAttribute):
   q1 = NumberAttribute(null=True)
   q2 = NumberAttribute(null=True)
   q3 = NumberAttribute(null=True)
+  q4 = NumberAttribute(null=True)
+  q5 = NumberAttribute(null=True)
 
 dynamodb = boto3.resource('dynamodb')
 scores = dynamodb.Table('Score')
@@ -48,6 +50,14 @@ def get_next_question(inserted_question):
         next_question = scores.get_item(
             Key={"question_id": 'q3'}
         )['Item']['question']
+    elif inserted_question == 'q3':
+        next_question = scores.get_item(
+            Key={"question_id": 'q4'}
+        )['Item']['question']
+    elif inserted_question == 'q4':
+        next_question = scores.get_item(
+            Key={"question_id": 'q5'}
+        )['Item']['question']
     return FlexSendMessage(
         alt_text='Next Question',
         contents=json.loads(next_question)
@@ -65,6 +75,12 @@ def update_score(user_score, answer):
     elif user_score.scores['q3'] is None:
         score = get_result('q3', answer)
         inserted_question = 'q3'
+    elif user_score.scores['q4'] is None:
+        score = get_result('q4', answer)
+        inserted_question = 'q4'
+    elif user_score.scores['q5'] is None:
+        score = get_result('q5', answer)
+        inserted_question = 'q5'
 
     # スコアを更新する
     if inserted_question != '':
@@ -77,10 +93,11 @@ def update_score(user_score, answer):
         result_msg = TextSendMessage(text='正解です')
 
     # 最終問題であれば結果を返す
-    if inserted_question == 'q3':
+    if inserted_question == 'q5':
         result_data = UserScore.get(user_score.line_user_id)
         total_score = result_data.scores['q1'] + \
-            result_data.scores['q2'] + result_data.scores['q3']
+            result_data.scores['q2'] + result_data.scores['q3'] + \
+            result_data.scores['q4'] + result_data.scores['q5']
         next_msg = TextSendMessage(
             text='以上で問題は終了です\n合計得点は{}点です'.format(total_score))
     else:
@@ -125,9 +142,9 @@ def lambda_handler(event, context):
     # ユーザIDが存在しない場合は登録する
     UserScore(
                 line_user_id=user_id,
-                scores=ScoreMap(q1=None, q2=None, q3=None)
+                scores=ScoreMap(q1=None, q2=None, q3=None, q4=None, q5=None)
             ).save()
-    
+
     # 最初の問題を取り出す
     first_question = scores.get_item(
                 Key={"question_id": 'q1'}
@@ -177,7 +194,7 @@ def lambda_handler(event, context):
 
       print('Question: {}\nScore: {}'.format(
       result['inserted_question'], result['score']))
-      
+
       msg_obj = result['msg']
 
       line_bot.reply_message(

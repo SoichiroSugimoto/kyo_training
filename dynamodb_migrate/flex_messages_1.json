@@ -1,0 +1,1059 @@
+{
+	"q10":{
+	"type": "bubble",
+	"direction": "ltr",
+	"body": {
+	  "type": "box",
+	  "layout": "vertical",
+	  "contents": [
+		{
+		  "type": "box",
+		  "layout": "vertical",
+		  "contents": [
+			{
+			  "type": "text",
+			  "text": "【漢字クイズ】",
+			  "align": "start",
+			  "contents": []
+			},
+			{
+			  "type": "text",
+			  "text": "下の選択肢から「画数が一番多い漢字」を選んでください。  ",
+			  "weight": "regular",
+			  "align": "start",
+			  "margin": "sm",
+			  "wrap": true,
+			  "contents": []
+			}
+		  ]
+		}
+	  ]
+	},
+	"footer": {
+	  "type": "box",
+	  "layout": "horizontal",
+	  "contents": [
+		{
+		  "type": "box",
+		  "layout": "vertical",
+		  "spacing": "lg",
+		  "margin": "md",
+		  "contents": [
+			{
+			  "type": "button",
+			  "action": {
+				"type": "message",
+				"label": "龍",
+				"text": "1"
+			  },
+			  "margin": "md",
+			  "height": "sm",
+			  "style": "primary",
+			  "offsetTop": "0px",
+			  "offsetBottom": "3px"
+			},
+			{
+			  "type": "button",
+			  "action": {
+				"type": "message",
+				"label": "語",
+				"text": "2"
+			  },
+			  "margin": "md",
+			  "height": "sm",
+			  "style": "primary",
+			  "position": "relative",
+			  "offsetTop": "1px",
+			  "offsetBottom": "1px"
+			},
+			{
+			  "type": "button",
+			  "action": {
+				"type": "message",
+				"label": "教",
+				"text": "3"
+			  },
+			  "height": "sm",
+			  "style": "primary",
+			  "offsetTop": "1px",
+			  "offsetBottom": "1px"
+			},
+			{
+			  "type": "button",
+			  "action": {
+				"type": "message",
+				"label": "絹",
+				"text": "4"
+			  },
+			  "height": "sm",
+			  "style": "primary",
+			  "offsetTop": "1px",
+			  "offsetBottom": "1px",
+			  "offsetStart": "0px",
+			  "offsetEnd": "0px"
+			}
+		  ]
+		}
+	  ]
+	}
+  },
+
+
+
+
+
+
+
+
+
+
+
+	"q11":{
+	  "type": "bubble",
+	  "direction": "ltr",
+	  "body": {
+		"type": "box",
+		"layout": "vertical",
+		"contents": [
+		  {
+			"type": "box",
+			"layout": "vertical",
+			"contents": [
+			  {
+				"type": "text",
+				"text": "【漢字クイズ】",
+				"align": "start",
+				"contents": []
+			  },
+			  {
+				"type": "text",
+				"text": "下の選択肢から「仲間はずれの漢字」を選んでください。  ",
+				"weight": "regular",
+				"align": "start",
+				"margin": "sm",
+				"wrap": true,
+				"contents": []
+			  }
+			]
+		  }
+		]
+	  },
+	  "footer": {
+		"type": "box",
+		"layout": "horizontal",
+		"contents": [
+		  {
+			"type": "box",
+			"layout": "vertical",
+			"spacing": "lg",
+			"margin": "md",
+			"contents": [
+			  {
+				"type": "button",
+				"action": {
+				  "type": "message",
+				  "label": "犬",
+				  "text": "1"
+				},
+				"margin": "md",
+				"height": "sm",
+				"style": "primary",
+				"offsetTop": "0px",
+				"offsetBottom": "3px"
+			  },
+			  {
+				"type": "button",
+				"action": {
+				  "type": "message",
+				  "label": "猫",
+				  "text": "2"
+				},
+				"margin": "md",
+				"height": "sm",
+				"style": "primary",
+				"position": "relative",
+				"offsetTop": "1px",
+				"offsetBottom": "1px"
+			  },
+			  {
+				"type": "button",
+				"action": {
+				  "type": "message",
+				  "label": "鯖",
+				  "text": "3"
+				},
+				"height": "sm",
+				"style": "primary",
+				"offsetTop": "1px",
+				"offsetBottom": "1px"
+			  },
+			  {
+				"type": "button",
+				"action": {
+				  "type": "message",
+				  "label": "兎",
+				  "text": "4"
+				},
+				"height": "sm",
+				"style": "primary",
+				"offsetTop": "1px",
+				"offsetBottom": "1px",
+				"offsetStart": "0px",
+				"offsetEnd": "0px"
+			  }
+			]
+		  }
+		]
+	  }
+	},
+
+
+
+
+
+
+
+	"q2":{
+	  "type": "bubble",
+	  "direction": "ltr",
+	  "body": {
+		"type": "box",
+		"layout": "vertical",
+		"contents": [
+		  {
+			"type": "box",
+			"layout": "vertical",
+			"contents": [
+			  {
+				"type": "text",
+				"text": "【漢字クイズ】",
+				"align": "start",
+				"contents": []
+			  },
+			  {
+				"type": "text",
+				"text": "下の選択肢から「仲間はずれの漢字」を選んでください。 ",
+				"weight": "regular",
+				"align": "start",
+				"margin": "sm",
+				"wrap": true,
+				"contents": []
+			  }
+			]
+		  }
+		]
+	  },
+	  "footer": {
+		"type": "box",
+		"layout": "horizontal",
+		"contents": [
+		  {
+			"type": "box",
+			"layout": "vertical",
+			"spacing": "lg",
+			"margin": "md",
+			"contents": [
+			  {
+				"type": "button",
+				"action": {
+				  "type": "message",
+				  "label": "春",
+				  "text": "1"
+				},
+				"margin": "md",
+				"height": "sm",
+				"style": "primary",
+				"offsetTop": "0px",
+				"offsetBottom": "3px"
+			  },
+			  {
+				"type": "button",
+				"action": {
+				  "type": "message",
+				  "label": "風",
+				  "text": "2"
+				},
+				"margin": "md",
+				"height": "sm",
+				"style": "primary",
+				"position": "relative",
+				"offsetTop": "1px",
+				"offsetBottom": "1px"
+			  },
+			  {
+				"type": "button",
+				"action": {
+				  "type": "message",
+				  "label": "冬",
+				  "text": "3"
+				},
+				"height": "sm",
+				"style": "primary",
+				"offsetTop": "1px",
+				"offsetBottom": "1px"
+			  },
+			  {
+				"type": "button",
+				"action": {
+				  "type": "message",
+				  "label": "秋",
+				  "text": "4"
+				},
+				"height": "sm",
+				"style": "primary",
+				"offsetTop": "1px",
+				"offsetBottom": "1px",
+				"offsetStart": "0px",
+				"offsetEnd": "0px"
+			  }
+			]
+		  }
+		]
+	  }
+	},
+
+
+
+
+
+
+
+
+	"q3":{
+	  "type": "bubble",
+	  "direction": "ltr",
+	  "body": {
+		"type": "box",
+		"layout": "vertical",
+		"contents": [
+		  {
+			"type": "box",
+			"layout": "vertical",
+			"contents": [
+			  {
+				"type": "text",
+				"text": "【漢字クイズ】",
+				"align": "start",
+				"contents": []
+			  },
+			  {
+				"type": "text",
+				"text": "下の選択肢から「仲間はずれの漢字」を選んでください。 ",
+				"weight": "regular",
+				"align": "start",
+				"margin": "sm",
+				"wrap": true,
+				"contents": []
+			  }
+			]
+		  }
+		]
+	  },
+	  "footer": {
+		"type": "box",
+		"layout": "horizontal",
+		"contents": [
+		  {
+			"type": "box",
+			"layout": "vertical",
+			"spacing": "lg",
+			"margin": "md",
+			"contents": [
+			  {
+				"type": "button",
+				"action": {
+				  "type": "message",
+				  "label": "鯖",
+				  "text": "1"
+				},
+				"margin": "md",
+				"height": "sm",
+				"style": "primary",
+				"offsetTop": "0px",
+				"offsetBottom": "3px"
+			  },
+			  {
+				"type": "button",
+				"action": {
+				  "type": "message",
+				  "label": "猫",
+				  "text": "2"
+				},
+				"margin": "md",
+				"height": "sm",
+				"style": "primary",
+				"position": "relative",
+				"offsetTop": "1px",
+				"offsetBottom": "1px"
+			  },
+			  {
+				"type": "button",
+				"action": {
+				  "type": "message",
+				  "label": "鰯",
+				  "text": "3"
+				},
+				"height": "sm",
+				"style": "primary",
+				"offsetTop": "1px",
+				"offsetBottom": "1px"
+			  },
+			  {
+				"type": "button",
+				"action": {
+				  "type": "message",
+				  "label": "鰻",
+				  "text": "4"
+				},
+				"height": "sm",
+				"style": "primary",
+				"offsetTop": "1px",
+				"offsetBottom": "1px",
+				"offsetStart": "0px",
+				"offsetEnd": "0px"
+			  }
+			]
+		  }
+		]
+	  }
+	},
+
+
+
+
+
+
+
+
+	"q4":{
+	  "type": "bubble",
+	  "direction": "ltr",
+	  "body": {
+		"type": "box",
+		"layout": "vertical",
+		"contents": [
+		  {
+			"type": "box",
+			"layout": "vertical",
+			"contents": [
+			  {
+				"type": "text",
+				"text": "【漢字クイズ】",
+				"align": "start",
+				"contents": []
+			  },
+			  {
+				"type": "text",
+				"text": "下の選択肢から「仲間はずれの漢字」を選んでください。 ",
+				"weight": "regular",
+				"align": "start",
+				"margin": "sm",
+				"wrap": true,
+				"contents": []
+			  }
+			]
+		  }
+		]
+	  },
+	  "footer": {
+		"type": "box",
+		"layout": "horizontal",
+		"contents": [
+		  {
+			"type": "box",
+			"layout": "vertical",
+			"spacing": "lg",
+			"margin": "md",
+			"contents": [
+			  {
+				"type": "button",
+				"action": {
+				  "type": "message",
+				  "label": "火",
+				  "text": "1"
+				},
+				"margin": "md",
+				"height": "sm",
+				"style": "primary",
+				"offsetTop": "0px",
+				"offsetBottom": "3px"
+			  },
+			  {
+				"type": "button",
+				"action": {
+				  "type": "message",
+				  "label": "土",
+				  "text": "2"
+				},
+				"margin": "md",
+				"height": "sm",
+				"style": "primary",
+				"position": "relative",
+				"offsetTop": "1px",
+				"offsetBottom": "1px"
+			  },
+			  {
+				"type": "button",
+				"action": {
+				  "type": "message",
+				  "label": "月",
+				  "text": "3"
+				},
+				"height": "sm",
+				"style": "primary",
+				"offsetTop": "1px",
+				"offsetBottom": "1px"
+			  },
+			  {
+				"type": "button",
+				"action": {
+				  "type": "message",
+				  "label": "山",
+				  "text": "4"
+				},
+				"height": "sm",
+				"style": "primary",
+				"offsetTop": "1px",
+				"offsetBottom": "1px",
+				"offsetStart": "0px",
+				"offsetEnd": "0px"
+			  }
+			]
+		  }
+		]
+	  }
+	},
+
+
+
+
+
+
+
+
+
+	"q5":{
+	  "type": "bubble",
+	  "direction": "ltr",
+	  "body": {
+		"type": "box",
+		"layout": "vertical",
+		"contents": [
+		  {
+			"type": "box",
+			"layout": "vertical",
+			"contents": [
+			  {
+				"type": "text",
+				"text": "【漢字クイズ】",
+				"align": "start",
+				"contents": []
+			  },
+			  {
+				"type": "text",
+				"text": "下の選択肢から「仲間はずれの漢字」を選んでください。 ",
+				"weight": "regular",
+				"align": "start",
+				"margin": "sm",
+				"wrap": true,
+				"contents": []
+			  }
+			]
+		  }
+		]
+	  },
+	  "footer": {
+		"type": "box",
+		"layout": "horizontal",
+		"contents": [
+		  {
+			"type": "box",
+			"layout": "vertical",
+			"spacing": "lg",
+			"margin": "md",
+			"contents": [
+			  {
+				"type": "button",
+				"action": {
+				  "type": "message",
+				  "label": "柿",
+				  "text": "1"
+				},
+				"margin": "md",
+				"height": "sm",
+				"style": "primary",
+				"offsetTop": "0px",
+				"offsetBottom": "3px"
+			  },
+			  {
+				"type": "button",
+				"action": {
+				  "type": "message",
+				  "label": "苺",
+				  "text": "2"
+				},
+				"margin": "md",
+				"height": "sm",
+				"style": "primary",
+				"position": "relative",
+				"offsetTop": "1px",
+				"offsetBottom": "1px"
+			  },
+			  {
+				"type": "button",
+				"action": {
+				  "type": "message",
+				  "label": "虫",
+				  "text": "3"
+				},
+				"height": "sm",
+				"style": "primary",
+				"offsetTop": "1px",
+				"offsetBottom": "1px"
+			  },
+			  {
+				"type": "button",
+				"action": {
+				  "type": "message",
+				  "label": "イギリス",
+				  "text": "梨"
+				},
+				"height": "sm",
+				"style": "primary",
+				"offsetTop": "1px",
+				"offsetBottom": "1px",
+				"offsetStart": "0px",
+				"offsetEnd": "0px"
+			  }
+			]
+		  }
+		]
+	  }
+	},
+
+
+
+
+
+
+
+
+	"q6":{
+	  "type": "bubble",
+	  "direction": "ltr",
+	  "body": {
+		"type": "box",
+		"layout": "vertical",
+		"contents": [
+		  {
+			"type": "box",
+			"layout": "vertical",
+			"contents": [
+			  {
+				"type": "text",
+				"text": "【漢字クイズ】",
+				"align": "start",
+				"contents": []
+			  },
+			  {
+				"type": "text",
+				"text": "下の選択肢から「仲間はずれの漢字」を選んでください。",
+				"weight": "regular",
+				"align": "start",
+				"margin": "sm",
+				"wrap": true,
+				"contents": []
+			  }
+			]
+		  }
+		]
+	  },
+	  "footer": {
+		"type": "box",
+		"layout": "horizontal",
+		"contents": [
+		  {
+			"type": "box",
+			"layout": "vertical",
+			"spacing": "lg",
+			"margin": "md",
+			"contents": [
+			  {
+				"type": "button",
+				"action": {
+				  "type": "message",
+				  "label": "怖",
+				  "text": "1"
+				},
+				"margin": "md",
+				"height": "sm",
+				"style": "primary",
+				"offsetTop": "0px",
+				"offsetBottom": "3px"
+			  },
+			  {
+				"type": "button",
+				"action": {
+				  "type": "message",
+				  "label": "嬉",
+				  "text": "2"
+				},
+				"margin": "md",
+				"height": "sm",
+				"style": "primary",
+				"position": "relative",
+				"offsetTop": "1px",
+				"offsetBottom": "1px"
+			  },
+			  {
+				"type": "button",
+				"action": {
+				  "type": "message",
+				  "label": "悲",
+				  "text": "3"
+				},
+				"height": "sm",
+				"style": "primary",
+				"offsetTop": "1px",
+				"offsetBottom": "1px"
+			  },
+			  {
+				"type": "button",
+				"action": {
+				  "type": "message",
+				  "label": "河",
+				  "text": "4"
+				},
+				"height": "sm",
+				"style": "primary",
+				"offsetTop": "1px",
+				"offsetBottom": "1px",
+				"offsetStart": "0px",
+				"offsetEnd": "0px"
+			  }
+			]
+		  }
+		]
+	  }
+	},
+
+
+
+
+
+
+
+
+	"q7":{
+	  "type": "bubble",
+	  "direction": "ltr",
+	  "body": {
+		"type": "box",
+		"layout": "vertical",
+		"contents": [
+		  {
+			"type": "box",
+			"layout": "vertical",
+			"contents": [
+			  {
+				"type": "text",
+				"text": "【漢字クイズ】",
+				"align": "start",
+				"contents": []
+			  },
+			  {
+				"type": "text",
+				"text": "下の選択肢から「仲間はずれの漢字」を選んでください。",
+				"weight": "regular",
+				"align": "start",
+				"margin": "sm",
+				"wrap": true,
+				"contents": []
+			  }
+			]
+		  }
+		]
+	  },
+	  "footer": {
+		"type": "box",
+		"layout": "horizontal",
+		"contents": [
+		  {
+			"type": "box",
+			"layout": "vertical",
+			"spacing": "lg",
+			"margin": "md",
+			"contents": [
+			  {
+				"type": "button",
+				"action": {
+				  "type": "message",
+				  "label": "東",
+				  "text": "1"
+				},
+				"margin": "md",
+				"height": "sm",
+				"style": "primary",
+				"offsetTop": "0px",
+				"offsetBottom": "3px"
+			  },
+			  {
+				"type": "button",
+				"action": {
+				  "type": "message",
+				  "label": "島",
+				  "text": "2"
+				},
+				"margin": "md",
+				"height": "sm",
+				"style": "primary",
+				"position": "relative",
+				"offsetTop": "1px",
+				"offsetBottom": "1px"
+			  },
+			  {
+				"type": "button",
+				"action": {
+				  "type": "message",
+				  "label": "西",
+				  "text": "3"
+				},
+				"height": "sm",
+				"style": "primary",
+				"offsetTop": "1px",
+				"offsetBottom": "1px"
+			  },
+			  {
+				"type": "button",
+				"action": {
+				  "type": "message",
+				  "label": "南",
+				  "text": "4"
+				},
+				"height": "sm",
+				"style": "primary",
+				"offsetTop": "1px",
+				"offsetBottom": "1px",
+				"offsetStart": "0px",
+				"offsetEnd": "0px"
+			  }
+			]
+		  }
+		]
+	  }
+	},
+
+
+
+
+
+
+
+
+	"q8":{
+	  "type": "bubble",
+	  "direction": "ltr",
+	  "body": {
+		"type": "box",
+		"layout": "vertical",
+		"contents": [
+		  {
+			"type": "box",
+			"layout": "vertical",
+			"contents": [
+			  {
+				"type": "text",
+				"text": "【漢字クイズ】",
+				"align": "start",
+				"contents": []
+			  },
+			  {
+				"type": "text",
+				"text": "下の選択肢から「仲間はずれの漢字」を選んでください。",
+				"weight": "regular",
+				"align": "start",
+				"margin": "sm",
+				"wrap": true,
+				"contents": []
+			  }
+			]
+		  }
+		]
+	  },
+	  "footer": {
+		"type": "box",
+		"layout": "horizontal",
+		"contents": [
+		  {
+			"type": "box",
+			"layout": "vertical",
+			"spacing": "lg",
+			"margin": "md",
+			"contents": [
+			  {
+				"type": "button",
+				"action": {
+				  "type": "message",
+				  "label": "甘",
+				  "text": "1"
+				},
+				"margin": "md",
+				"height": "sm",
+				"style": "primary",
+				"offsetTop": "0px",
+				"offsetBottom": "3px"
+			  },
+			  {
+				"type": "button",
+				"action": {
+				  "type": "message",
+				  "label": "辛",
+				  "text": "2"
+				},
+				"margin": "md",
+				"height": "sm",
+				"style": "primary",
+				"position": "relative",
+				"offsetTop": "1px",
+				"offsetBottom": "1px"
+			  },
+			  {
+				"type": "button",
+				"action": {
+				  "type": "message",
+				  "label": "苦",
+				  "text": "3"
+				},
+				"height": "sm",
+				"style": "primary",
+				"offsetTop": "1px",
+				"offsetBottom": "1px"
+			  },
+			  {
+				"type": "button",
+				"action": {
+				  "type": "message",
+				  "label": "腹",
+				  "text": "4"
+				},
+				"height": "sm",
+				"style": "primary",
+				"offsetTop": "1px",
+				"offsetBottom": "1px",
+				"offsetStart": "0px",
+				"offsetEnd": "0px"
+			  }
+			]
+		  }
+		]
+	  }
+	},
+
+
+
+
+
+
+
+
+
+
+	"q9":{
+	  "type": "bubble",
+	  "direction": "ltr",
+	  "body": {
+		"type": "box",
+		"layout": "vertical",
+		"contents": [
+		  {
+			"type": "box",
+			"layout": "vertical",
+			"contents": [
+			  {
+				"type": "text",
+				"text": "【漢字クイズ】",
+				"align": "start",
+				"contents": []
+			  },
+			  {
+				"type": "text",
+				"text": "下の選択肢から「画数が一番多い漢字」を選んでください。  ",
+				"weight": "regular",
+				"align": "start",
+				"margin": "sm",
+				"wrap": true,
+				"contents": []
+			  }
+			]
+		  }
+		]
+	  },
+	  "footer": {
+		"type": "box",
+		"layout": "horizontal",
+		"contents": [
+		  {
+			"type": "box",
+			"layout": "vertical",
+			"spacing": "lg",
+			"margin": "md",
+			"contents": [
+			  {
+				"type": "button",
+				"action": {
+				  "type": "message",
+				  "label": "書",
+				  "text": "1"
+				},
+				"margin": "md",
+				"height": "sm",
+				"style": "primary",
+				"offsetTop": "0px",
+				"offsetBottom": "3px"
+			  },
+			  {
+				"type": "button",
+				"action": {
+				  "type": "message",
+				  "label": "五",
+				  "text": "2"
+				},
+				"margin": "md",
+				"height": "sm",
+				"style": "primary",
+				"position": "relative",
+				"offsetTop": "1px",
+				"offsetBottom": "1px"
+			  },
+			  {
+				"type": "button",
+				"action": {
+				  "type": "message",
+				  "label": "橋",
+				  "text": "3"
+				},
+				"height": "sm",
+				"style": "primary",
+				"offsetTop": "1px",
+				"offsetBottom": "1px"
+			  },
+			  {
+				"type": "button",
+				"action": {
+				  "type": "message",
+				  "label": "犬",
+				  "text": "4"
+				},
+				"height": "sm",
+				"style": "primary",
+				"offsetTop": "1px",
+				"offsetBottom": "1px",
+				"offsetStart": "0px",
+				"offsetEnd": "0px"
+			  }
+			]
+		  }
+		]
+	  }
+	}
+  }

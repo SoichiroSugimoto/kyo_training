@@ -1,0 +1,1059 @@
+{
+	"q30":{
+	"type": "bubble",
+	"direction": "ltr",
+	"body": {
+	  "type": "box",
+	  "layout": "vertical",
+	  "contents": [
+		{
+		  "type": "box",
+		  "layout": "vertical",
+		  "contents": [
+			{
+			  "type": "text",
+			  "text": "【地理クイズ】",
+			  "align": "start",
+			  "contents": []
+			},
+			{
+			  "type": "text",
+			  "text": "日本一大きい湖は？  ",
+			  "weight": "regular",
+			  "align": "start",
+			  "margin": "sm",
+			  "wrap": true,
+			  "contents": []
+			}
+		  ]
+		}
+	  ]
+	},
+	"footer": {
+	  "type": "box",
+	  "layout": "horizontal",
+	  "contents": [
+		{
+		  "type": "box",
+		  "layout": "vertical",
+		  "spacing": "lg",
+		  "margin": "md",
+		  "contents": [
+			{
+			  "type": "button",
+			  "action": {
+				"type": "message",
+				"label": "琵琶湖",
+				"text": "1"
+			  },
+			  "margin": "md",
+			  "height": "sm",
+			  "style": "primary",
+			  "offsetTop": "0px",
+			  "offsetBottom": "3px"
+			},
+			{
+			  "type": "button",
+			  "action": {
+				"type": "message",
+				"label": "河口湖",
+				"text": "2"
+			  },
+			  "margin": "md",
+			  "height": "sm",
+			  "style": "primary",
+			  "position": "relative",
+			  "offsetTop": "1px",
+			  "offsetBottom": "1px"
+			},
+			{
+			  "type": "button",
+			  "action": {
+				"type": "message",
+				"label": "諏訪湖",
+				"text": "3"
+			  },
+			  "height": "sm",
+			  "style": "primary",
+			  "offsetTop": "1px",
+			  "offsetBottom": "1px"
+			},
+			{
+			  "type": "button",
+			  "action": {
+				"type": "message",
+				"label": "浜名湖",
+				"text": "4"
+			  },
+			  "height": "sm",
+			  "style": "primary",
+			  "offsetTop": "1px",
+			  "offsetBottom": "1px",
+			  "offsetStart": "0px",
+			  "offsetEnd": "0px"
+			}
+		  ]
+		}
+	  ]
+	}
+  },
+
+
+
+
+
+
+
+
+
+
+
+	"q31":{
+	  "type": "bubble",
+	  "direction": "ltr",
+	  "body": {
+		"type": "box",
+		"layout": "vertical",
+		"contents": [
+		  {
+			"type": "box",
+			"layout": "vertical",
+			"contents": [
+			  {
+				"type": "text",
+				"text": "【地理クイズ】",
+				"align": "start",
+				"contents": []
+			  },
+			  {
+				"type": "text",
+				"text": "香川県の県庁所在地は？  ",
+				"weight": "regular",
+				"align": "start",
+				"margin": "sm",
+				"wrap": true,
+				"contents": []
+			  }
+			]
+		  }
+		]
+	  },
+	  "footer": {
+		"type": "box",
+		"layout": "horizontal",
+		"contents": [
+		  {
+			"type": "box",
+			"layout": "vertical",
+			"spacing": "lg",
+			"margin": "md",
+			"contents": [
+			  {
+				"type": "button",
+				"action": {
+				  "type": "message",
+				  "label": "高松市",
+				  "text": "1"
+				},
+				"margin": "md",
+				"height": "sm",
+				"style": "primary",
+				"offsetTop": "0px",
+				"offsetBottom": "3px"
+			  },
+			  {
+				"type": "button",
+				"action": {
+				  "type": "message",
+				  "label": "八王子市",
+				  "text": "2"
+				},
+				"margin": "md",
+				"height": "sm",
+				"style": "primary",
+				"position": "relative",
+				"offsetTop": "1px",
+				"offsetBottom": "1px"
+			  },
+			  {
+				"type": "button",
+				"action": {
+				  "type": "message",
+				  "label": "松江市",
+				  "text": "3"
+				},
+				"height": "sm",
+				"style": "primary",
+				"offsetTop": "1px",
+				"offsetBottom": "1px"
+			  },
+			  {
+				"type": "button",
+				"action": {
+				  "type": "message",
+				  "label": "香川市",
+				  "text": "4"
+				},
+				"height": "sm",
+				"style": "primary",
+				"offsetTop": "1px",
+				"offsetBottom": "1px",
+				"offsetStart": "0px",
+				"offsetEnd": "0px"
+			  }
+			]
+		  }
+		]
+	  }
+	},
+
+
+
+
+
+
+
+	"q32":{
+	  "type": "bubble",
+	  "direction": "ltr",
+	  "body": {
+		"type": "box",
+		"layout": "vertical",
+		"contents": [
+		  {
+			"type": "box",
+			"layout": "vertical",
+			"contents": [
+			  {
+				"type": "text",
+				"text": "【地理クイズ】",
+				"align": "start",
+				"contents": []
+			  },
+			  {
+				"type": "text",
+				"text": "日本で一番長い川は？  ",
+				"weight": "regular",
+				"align": "start",
+				"margin": "sm",
+				"wrap": true,
+				"contents": []
+			  }
+			]
+		  }
+		]
+	  },
+	  "footer": {
+		"type": "box",
+		"layout": "horizontal",
+		"contents": [
+		  {
+			"type": "box",
+			"layout": "vertical",
+			"spacing": "lg",
+			"margin": "md",
+			"contents": [
+			  {
+				"type": "button",
+				"action": {
+				  "type": "message",
+				  "label": "宇治川",
+				  "text": "1"
+				},
+				"margin": "md",
+				"height": "sm",
+				"style": "primary",
+				"offsetTop": "0px",
+				"offsetBottom": "3px"
+			  },
+			  {
+				"type": "button",
+				"action": {
+				  "type": "message",
+				  "label": "淀川",
+				  "text": "2"
+				},
+				"margin": "md",
+				"height": "sm",
+				"style": "primary",
+				"position": "relative",
+				"offsetTop": "1px",
+				"offsetBottom": "1px"
+			  },
+			  {
+				"type": "button",
+				"action": {
+				  "type": "message",
+				  "label": "信濃川",
+				  "text": "3"
+				},
+				"height": "sm",
+				"style": "primary",
+				"offsetTop": "1px",
+				"offsetBottom": "1px"
+			  },
+			  {
+				"type": "button",
+				"action": {
+				  "type": "message",
+				  "label": "隅田川",
+				  "text": "4"
+				},
+				"height": "sm",
+				"style": "primary",
+				"offsetTop": "1px",
+				"offsetBottom": "1px",
+				"offsetStart": "0px",
+				"offsetEnd": "0px"
+			  }
+			]
+		  }
+		]
+	  }
+	},
+
+
+
+
+
+
+
+
+	"q33":{
+	  "type": "bubble",
+	  "direction": "ltr",
+	  "body": {
+		"type": "box",
+		"layout": "vertical",
+		"contents": [
+		  {
+			"type": "box",
+			"layout": "vertical",
+			"contents": [
+			  {
+				"type": "text",
+				"text": "【地理クイズ】",
+				"align": "start",
+				"contents": []
+			  },
+			  {
+				"type": "text",
+				"text": "阿蘇山が位置する都道府県は？  ",
+				"weight": "regular",
+				"align": "start",
+				"margin": "sm",
+				"wrap": true,
+				"contents": []
+			  }
+			]
+		  }
+		]
+	  },
+	  "footer": {
+		"type": "box",
+		"layout": "horizontal",
+		"contents": [
+		  {
+			"type": "box",
+			"layout": "vertical",
+			"spacing": "lg",
+			"margin": "md",
+			"contents": [
+			  {
+				"type": "button",
+				"action": {
+				  "type": "message",
+				  "label": "長崎県",
+				  "text": "1"
+				},
+				"margin": "md",
+				"height": "sm",
+				"style": "primary",
+				"offsetTop": "0px",
+				"offsetBottom": "3px"
+			  },
+			  {
+				"type": "button",
+				"action": {
+				  "type": "message",
+				  "label": "熊本県",
+				  "text": "2"
+				},
+				"margin": "md",
+				"height": "sm",
+				"style": "primary",
+				"position": "relative",
+				"offsetTop": "1px",
+				"offsetBottom": "1px"
+			  },
+			  {
+				"type": "button",
+				"action": {
+				  "type": "message",
+				  "label": "鳥取県",
+				  "text": "3"
+				},
+				"height": "sm",
+				"style": "primary",
+				"offsetTop": "1px",
+				"offsetBottom": "1px"
+			  },
+			  {
+				"type": "button",
+				"action": {
+				  "type": "message",
+				  "label": "北海道",
+				  "text": "4"
+				},
+				"height": "sm",
+				"style": "primary",
+				"offsetTop": "1px",
+				"offsetBottom": "1px",
+				"offsetStart": "0px",
+				"offsetEnd": "0px"
+			  }
+			]
+		  }
+		]
+	  }
+	},
+
+
+
+
+
+
+
+
+	"q34":{
+	  "type": "bubble",
+	  "direction": "ltr",
+	  "body": {
+		"type": "box",
+		"layout": "vertical",
+		"contents": [
+		  {
+			"type": "box",
+			"layout": "vertical",
+			"contents": [
+			  {
+				"type": "text",
+				"text": "【地理クイズ】",
+				"align": "start",
+				"contents": []
+			  },
+			  {
+				"type": "text",
+				"text": "日本の最南端に位置する島の名前は？  ",
+				"weight": "regular",
+				"align": "start",
+				"margin": "sm",
+				"wrap": true,
+				"contents": []
+			  }
+			]
+		  }
+		]
+	  },
+	  "footer": {
+		"type": "box",
+		"layout": "horizontal",
+		"contents": [
+		  {
+			"type": "box",
+			"layout": "vertical",
+			"spacing": "lg",
+			"margin": "md",
+			"contents": [
+			  {
+				"type": "button",
+				"action": {
+				  "type": "message",
+				  "label": "対馬",
+				  "text": "1"
+				},
+				"margin": "md",
+				"height": "sm",
+				"style": "primary",
+				"offsetTop": "0px",
+				"offsetBottom": "3px"
+			  },
+			  {
+				"type": "button",
+				"action": {
+				  "type": "message",
+				  "label": "佐渡島",
+				  "text": "2"
+				},
+				"margin": "md",
+				"height": "sm",
+				"style": "primary",
+				"position": "relative",
+				"offsetTop": "1px",
+				"offsetBottom": "1px"
+			  },
+			  {
+				"type": "button",
+				"action": {
+				  "type": "message",
+				  "label": "西表島",
+				  "text": "3"
+				},
+				"height": "sm",
+				"style": "primary",
+				"offsetTop": "1px",
+				"offsetBottom": "1px"
+			  },
+			  {
+				"type": "button",
+				"action": {
+				  "type": "message",
+				  "label": "沖ノ鳥島",
+				  "text": "4"
+				},
+				"height": "sm",
+				"style": "primary",
+				"offsetTop": "1px",
+				"offsetBottom": "1px",
+				"offsetStart": "0px",
+				"offsetEnd": "0px"
+			  }
+			]
+		  }
+		]
+	  }
+	},
+
+
+
+
+
+
+
+
+
+	"q35":{
+	  "type": "bubble",
+	  "direction": "ltr",
+	  "body": {
+		"type": "box",
+		"layout": "vertical",
+		"contents": [
+		  {
+			"type": "box",
+			"layout": "vertical",
+			"contents": [
+			  {
+				"type": "text",
+				"text": "【地理クイズ】",
+				"align": "start",
+				"contents": []
+			  },
+			  {
+				"type": "text",
+				"text": "世界遺産である姫路城が位置している都道府県は？  ",
+				"weight": "regular",
+				"align": "start",
+				"margin": "sm",
+				"wrap": true,
+				"contents": []
+			  }
+			]
+		  }
+		]
+	  },
+	  "footer": {
+		"type": "box",
+		"layout": "horizontal",
+		"contents": [
+		  {
+			"type": "box",
+			"layout": "vertical",
+			"spacing": "lg",
+			"margin": "md",
+			"contents": [
+			  {
+				"type": "button",
+				"action": {
+				  "type": "message",
+				  "label": "大阪府",
+				  "text": "1"
+				},
+				"margin": "md",
+				"height": "sm",
+				"style": "primary",
+				"offsetTop": "0px",
+				"offsetBottom": "3px"
+			  },
+			  {
+				"type": "button",
+				"action": {
+				  "type": "message",
+				  "label": "兵庫県",
+				  "text": "2"
+				},
+				"margin": "md",
+				"height": "sm",
+				"style": "primary",
+				"position": "relative",
+				"offsetTop": "1px",
+				"offsetBottom": "1px"
+			  },
+			  {
+				"type": "button",
+				"action": {
+				  "type": "message",
+				  "label": "愛媛県",
+				  "text": "3"
+				},
+				"height": "sm",
+				"style": "primary",
+				"offsetTop": "1px",
+				"offsetBottom": "1px"
+			  },
+			  {
+				"type": "button",
+				"action": {
+				  "type": "message",
+				  "label": "京都府",
+				  "text": "4"
+				},
+				"height": "sm",
+				"style": "primary",
+				"offsetTop": "1px",
+				"offsetBottom": "1px",
+				"offsetStart": "0px",
+				"offsetEnd": "0px"
+			  }
+			]
+		  }
+		]
+	  }
+	},
+
+
+
+
+
+
+
+
+	"q36":{
+	  "type": "bubble",
+	  "direction": "ltr",
+	  "body": {
+		"type": "box",
+		"layout": "vertical",
+		"contents": [
+		  {
+			"type": "box",
+			"layout": "vertical",
+			"contents": [
+			  {
+				"type": "text",
+				"text": "【地理クイズ】",
+				"align": "start",
+				"contents": []
+			  },
+			  {
+				"type": "text",
+				"text": "九州には何個の県がある？  ",
+				"weight": "regular",
+				"align": "start",
+				"margin": "sm",
+				"wrap": true,
+				"contents": []
+			  }
+			]
+		  }
+		]
+	  },
+	  "footer": {
+		"type": "box",
+		"layout": "horizontal",
+		"contents": [
+		  {
+			"type": "box",
+			"layout": "vertical",
+			"spacing": "lg",
+			"margin": "md",
+			"contents": [
+			  {
+				"type": "button",
+				"action": {
+				  "type": "message",
+				  "label": "[ 11 ]",
+				  "text": "1"
+				},
+				"margin": "md",
+				"height": "sm",
+				"style": "primary",
+				"offsetTop": "0px",
+				"offsetBottom": "3px"
+			  },
+			  {
+				"type": "button",
+				"action": {
+				  "type": "message",
+				  "label": "[ 7 ]",
+				  "text": "2"
+				},
+				"margin": "md",
+				"height": "sm",
+				"style": "primary",
+				"position": "relative",
+				"offsetTop": "1px",
+				"offsetBottom": "1px"
+			  },
+			  {
+				"type": "button",
+				"action": {
+				  "type": "message",
+				  "label": "[ 9 ]",
+				  "text": "3"
+				},
+				"height": "sm",
+				"style": "primary",
+				"offsetTop": "1px",
+				"offsetBottom": "1px"
+			  },
+			  {
+				"type": "button",
+				"action": {
+				  "type": "message",
+				  "label": "[ 4 ]",
+				  "text": "4"
+				},
+				"height": "sm",
+				"style": "primary",
+				"offsetTop": "1px",
+				"offsetBottom": "1px",
+				"offsetStart": "0px",
+				"offsetEnd": "0px"
+			  }
+			]
+		  }
+		]
+	  }
+	},
+
+
+
+
+
+
+
+
+	"q37":{
+	  "type": "bubble",
+	  "direction": "ltr",
+	  "body": {
+		"type": "box",
+		"layout": "vertical",
+		"contents": [
+		  {
+			"type": "box",
+			"layout": "vertical",
+			"contents": [
+			  {
+				"type": "text",
+				"text": "【地理クイズ】",
+				"align": "start",
+				"contents": []
+			  },
+			  {
+				"type": "text",
+				"text": "小笠原諸島の位置する都道府県は？  ",
+				"weight": "regular",
+				"align": "start",
+				"margin": "sm",
+				"wrap": true,
+				"contents": []
+			  }
+			]
+		  }
+		]
+	  },
+	  "footer": {
+		"type": "box",
+		"layout": "horizontal",
+		"contents": [
+		  {
+			"type": "box",
+			"layout": "vertical",
+			"spacing": "lg",
+			"margin": "md",
+			"contents": [
+			  {
+				"type": "button",
+				"action": {
+				  "type": "message",
+				  "label": "沖縄県",
+				  "text": "1"
+				},
+				"margin": "md",
+				"height": "sm",
+				"style": "primary",
+				"offsetTop": "0px",
+				"offsetBottom": "3px"
+			  },
+			  {
+				"type": "button",
+				"action": {
+				  "type": "message",
+				  "label": "北海道",
+				  "text": "2"
+				},
+				"margin": "md",
+				"height": "sm",
+				"style": "primary",
+				"position": "relative",
+				"offsetTop": "1px",
+				"offsetBottom": "1px"
+			  },
+			  {
+				"type": "button",
+				"action": {
+				  "type": "message",
+				  "label": "東京都",
+				  "text": "3"
+				},
+				"height": "sm",
+				"style": "primary",
+				"offsetTop": "1px",
+				"offsetBottom": "1px"
+			  },
+			  {
+				"type": "button",
+				"action": {
+				  "type": "message",
+				  "label": "和歌山県",
+				  "text": "4"
+				},
+				"height": "sm",
+				"style": "primary",
+				"offsetTop": "1px",
+				"offsetBottom": "1px",
+				"offsetStart": "0px",
+				"offsetEnd": "0px"
+			  }
+			]
+		  }
+		]
+	  }
+	},
+
+
+
+
+
+
+
+
+	"q38":{
+	  "type": "bubble",
+	  "direction": "ltr",
+	  "body": {
+		"type": "box",
+		"layout": "vertical",
+		"contents": [
+		  {
+			"type": "box",
+			"layout": "vertical",
+			"contents": [
+			  {
+				"type": "text",
+				"text": "【地理クイズ】",
+				"align": "start",
+				"contents": []
+			  },
+			  {
+				"type": "text",
+				"text": "日本一高い建物は？  ",
+				"weight": "regular",
+				"align": "start",
+				"margin": "sm",
+				"wrap": true,
+				"contents": []
+			  }
+			]
+		  }
+		]
+	  },
+	  "footer": {
+		"type": "box",
+		"layout": "horizontal",
+		"contents": [
+		  {
+			"type": "box",
+			"layout": "vertical",
+			"spacing": "lg",
+			"margin": "md",
+			"contents": [
+			  {
+				"type": "button",
+				"action": {
+				  "type": "message",
+				  "label": "浅草寺",
+				  "text": "1"
+				},
+				"margin": "md",
+				"height": "sm",
+				"style": "primary",
+				"offsetTop": "0px",
+				"offsetBottom": "3px"
+			  },
+			  {
+				"type": "button",
+				"action": {
+				  "type": "message",
+				  "label": "東京スカイツリー",
+				  "text": "2"
+				},
+				"margin": "md",
+				"height": "sm",
+				"style": "primary",
+				"position": "relative",
+				"offsetTop": "1px",
+				"offsetBottom": "1px"
+			  },
+			  {
+				"type": "button",
+				"action": {
+				  "type": "message",
+				  "label": "東京タワー",
+				  "text": "3"
+				},
+				"height": "sm",
+				"style": "primary",
+				"offsetTop": "1px",
+				"offsetBottom": "1px"
+			  },
+			  {
+				"type": "button",
+				"action": {
+				  "type": "message",
+				  "label": "法隆寺",
+				  "text": "4"
+				},
+				"height": "sm",
+				"style": "primary",
+				"offsetTop": "1px",
+				"offsetBottom": "1px",
+				"offsetStart": "0px",
+				"offsetEnd": "0px"
+			  }
+			]
+		  }
+		]
+	  }
+	},
+
+
+
+
+
+
+
+
+
+
+	"q39":{
+	  "type": "bubble",
+	  "direction": "ltr",
+	  "body": {
+		"type": "box",
+		"layout": "vertical",
+		"contents": [
+		  {
+			"type": "box",
+			"layout": "vertical",
+			"contents": [
+			  {
+				"type": "text",
+				"text": "【地理クイズ】",
+				"align": "start",
+				"contents": []
+			  },
+			  {
+				"type": "text",
+				"text": "日本で一番多く首相を輩出している都道府県は？  ",
+				"weight": "regular",
+				"align": "start",
+				"margin": "sm",
+				"wrap": true,
+				"contents": []
+			  }
+			]
+		  }
+		]
+	  },
+	  "footer": {
+		"type": "box",
+		"layout": "horizontal",
+		"contents": [
+		  {
+			"type": "box",
+			"layout": "vertical",
+			"spacing": "lg",
+			"margin": "md",
+			"contents": [
+			  {
+				"type": "button",
+				"action": {
+				  "type": "message",
+				  "label": "鹿児島県",
+				  "text": "1"
+				},
+				"margin": "md",
+				"height": "sm",
+				"style": "primary",
+				"offsetTop": "0px",
+				"offsetBottom": "3px"
+			  },
+			  {
+				"type": "button",
+				"action": {
+				  "type": "message",
+				  "label": "東京都",
+				  "text": "2"
+				},
+				"margin": "md",
+				"height": "sm",
+				"style": "primary",
+				"position": "relative",
+				"offsetTop": "1px",
+				"offsetBottom": "1px"
+			  },
+			  {
+				"type": "button",
+				"action": {
+				  "type": "message",
+				  "label": "新潟県",
+				  "text": "3"
+				},
+				"height": "sm",
+				"style": "primary",
+				"offsetTop": "1px",
+				"offsetBottom": "1px"
+			  },
+			  {
+				"type": "button",
+				"action": {
+				  "type": "message",
+				  "label": "北海道",
+				  "text": "4"
+				},
+				"height": "sm",
+				"style": "primary",
+				"offsetTop": "1px",
+				"offsetBottom": "1px",
+				"offsetStart": "0px",
+				"offsetEnd": "0px"
+			  }
+			]
+		  }
+		]
+	  }
+	}
+  }

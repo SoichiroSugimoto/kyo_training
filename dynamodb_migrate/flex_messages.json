@@ -1,4 +1,113 @@
 {
+  "q0":{
+  "type": "bubble",
+  "direction": "ltr",
+  "body": {
+    "type": "box",
+    "layout": "vertical",
+    "contents": [
+      {
+        "type": "box",
+        "layout": "vertical",
+        "contents": [
+          {
+            "type": "text",
+            "text": "【国名クイズ】",
+            "align": "start",
+            "contents": []
+          },
+          {
+            "type": "text",
+            "text": "世界一面積の大きい国は？  ",
+            "weight": "regular",
+            "align": "start",
+            "margin": "sm",
+            "wrap": true,
+            "contents": []
+          }
+        ]
+      }
+    ]
+  },
+  "footer": {
+    "type": "box",
+    "layout": "horizontal",
+    "contents": [
+      {
+        "type": "box",
+        "layout": "vertical",
+        "spacing": "lg",
+        "margin": "md",
+        "contents": [
+          {
+            "type": "button",
+            "action": {
+              "type": "message",
+              "label": "中国",
+              "text": "1"
+            },
+            "margin": "md",
+            "height": "sm",
+            "style": "primary",
+            "offsetTop": "0px",
+            "offsetBottom": "3px"
+          },
+          {
+            "type": "button",
+            "action": {
+              "type": "message",
+              "label": "アメリカ",
+              "text": "2"
+            },
+            "margin": "md",
+            "height": "sm",
+            "style": "primary",
+            "position": "relative",
+            "offsetTop": "1px",
+            "offsetBottom": "1px"
+          },
+          {
+            "type": "button",
+            "action": {
+              "type": "message",
+              "label": "ロシア",
+              "text": "3"
+            },
+            "height": "sm",
+            "style": "primary",
+            "offsetTop": "1px",
+            "offsetBottom": "1px"
+          },
+          {
+            "type": "button",
+            "action": {
+              "type": "message",
+              "label": "日本",
+              "text": "4"
+            },
+            "height": "sm",
+            "style": "primary",
+            "offsetTop": "1px",
+            "offsetBottom": "1px",
+            "offsetStart": "0px",
+            "offsetEnd": "0px"
+          }
+        ]
+      }
+    ]
+  }
+},
+
+
+
+
+
+
+
+
+
+
+
   "q1":{
     "type": "bubble",
     "direction": "ltr",
@@ -12,66 +121,16 @@
           "contents": [
             {
               "type": "text",
-              "text": "第1問",
+              "text": "【国名クイズ】",
               "align": "start",
               "contents": []
             },
             {
               "type": "text",
-              "text": "ELBをパブリックサブネットに配置しその後ろにEC2を配置することで、EC2インスタンス上に構成したWebサービスをインターネット上に公開しています。EC2の配置先として適切なサブネットのタイプはどれでしょうか？  ",
+              "text": "パンダの生息地として有名な国は？  ",
               "weight": "regular",
               "align": "start",
               "margin": "sm",
-              "wrap": true,
-              "contents": []
-            }
-          ]
-        },
-        {
-          "type": "box",
-          "layout": "vertical",
-          "contents": [
-            {
-              "type": "text",
-              "text": "1.パブリックサブネット",
-              "weight": "regular",
-              "size": "md",
-              "align": "start",
-              "gravity": "center",
-              "margin": "xxl",
-              "wrap": true,
-              "contents": []
-            },
-            {
-              "type": "text",
-              "text": "2.プライベートサブネット",
-              "weight": "regular",
-              "size": "md",
-              "align": "start",
-              "gravity": "center",
-              "margin": "md",
-              "wrap": true,
-              "contents": []
-            },
-            {
-              "type": "text",
-              "text": "3.VPCエンドポイントが設定されたプライベートサブネット",
-              "weight": "regular",
-              "size": "md",
-              "align": "start",
-              "gravity": "center",
-              "margin": "md",
-              "wrap": true,
-              "contents": []
-            },
-            {
-              "type": "text",
-              "text": "4.オンプレとの専用線接続が設定されたプライベートサブネット",
-              "weight": "regular",
-              "size": "md",
-              "align": "start",
-              "gravity": "center",
-              "margin": "md",
               "wrap": true,
               "contents": []
             }
@@ -93,7 +152,7 @@
               "type": "button",
               "action": {
                 "type": "message",
-                "label": "1",
+                "label": "中国",
                 "text": "1"
               },
               "margin": "md",
@@ -106,7 +165,7 @@
               "type": "button",
               "action": {
                 "type": "message",
-                "label": "2",
+                "label": "タイ",
                 "text": "2"
               },
               "margin": "md",
@@ -120,7 +179,7 @@
               "type": "button",
               "action": {
                 "type": "message",
-                "label": "3",
+                "label": "マレーシア",
                 "text": "3"
               },
               "height": "sm",
@@ -132,7 +191,7 @@
               "type": "button",
               "action": {
                 "type": "message",
-                "label": "4",
+                "label": "エジプト",
                 "text": "4"
               },
               "height": "sm",
@@ -147,6 +206,13 @@
       ]
     }
   },
+
+
+
+
+
+
+
   "q2":{
     "type": "bubble",
     "direction": "ltr",
@@ -160,66 +226,16 @@
           "contents": [
             {
               "type": "text",
-              "text": "第2問",
+              "text": "【国名クイズ】",
               "align": "start",
               "contents": []
             },
             {
               "type": "text",
-              "text": "Amazon ECSを利用してマイクロサービス型の分散システムを構築しています。マイクロサービス1とマイクロサービス2に分割しており、マイクロサービス1の処理後にマイクロサービス2に処理が引き渡されます。この要件を満たすマイクロサービス間連携のアーキテクチャを選択してください。",
+              "text": "ピザが有名な国といえば？ ",
               "weight": "regular",
               "align": "start",
               "margin": "sm",
-              "wrap": true,
-              "contents": []
-            }
-          ]
-        },
-        {
-          "type": "box",
-          "layout": "vertical",
-          "contents": [
-            {
-              "type": "text",
-              "text": "1.マイクロサービス1からSNSによるメッセージ通知を用いて、マイクロサービス2に連携する。",
-              "weight": "regular",
-              "size": "md",
-              "align": "start",
-              "gravity": "center",
-              "margin": "xxl",
-              "wrap": true,
-              "contents": []
-            },
-            {
-              "type": "text",
-              "text": "2.マイクロサービス1からLambda関数によるイベント処理を用いて、マイクロサービス2に連携する。",
-              "weight": "regular",
-              "size": "md",
-              "align": "start",
-              "gravity": "center",
-              "margin": "md",
-              "wrap": true,
-              "contents": []
-            },
-            {
-              "type": "text",
-              "text": "3.マイクロサービス1からAmazon SWFを用いて、マイクロサービス2に連携する。",
-              "weight": "regular",
-              "size": "md",
-              "align": "start",
-              "gravity": "center",
-              "margin": "md",
-              "wrap": true,
-              "contents": []
-            },
-            {
-              "type": "text",
-              "text": "4.マイクロサービス1からSQSによるキューイング処理を用いて、マイクロサービス2に連携する。",
-              "weight": "regular",
-              "size": "md",
-              "align": "start",
-              "gravity": "center",
-              "margin": "md",
               "wrap": true,
               "contents": []
             }
@@ -241,7 +257,7 @@
               "type": "button",
               "action": {
                 "type": "message",
-                "label": "1",
+                "label": "チリ",
                 "text": "1"
               },
               "margin": "md",
@@ -254,7 +270,7 @@
               "type": "button",
               "action": {
                 "type": "message",
-                "label": "2",
+                "label": "ブラジル",
                 "text": "2"
               },
               "margin": "md",
@@ -268,7 +284,7 @@
               "type": "button",
               "action": {
                 "type": "message",
-                "label": "3",
+                "label": "台湾",
                 "text": "3"
               },
               "height": "sm",
@@ -280,7 +296,7 @@
               "type": "button",
               "action": {
                 "type": "message",
-                "label": "4",
+                "label": "イタリア",
                 "text": "4"
               },
               "height": "sm",
@@ -295,6 +311,14 @@
       ]
     }
   },
+
+
+
+
+
+
+
+
   "q3":{
     "type": "bubble",
     "direction": "ltr",
@@ -308,66 +332,16 @@
           "contents": [
             {
               "type": "text",
-              "text": "第3問",
+              "text": "【国名クイズ】",
               "align": "start",
               "contents": []
             },
             {
               "type": "text",
-              "text": "AWSは、DirectConnectというサービスを提供しています。DirectConnetの説明として正しいものは次のうちどれですか？",
+              "text": "自由の女神があるのはどの国？",
               "weight": "regular",
               "align": "start",
               "margin": "sm",
-              "wrap": true,
-              "contents": []
-            }
-          ]
-        },
-        {
-          "type": "box",
-          "layout": "vertical",
-          "contents": [
-            {
-              "type": "text",
-              "text": "1.自社オンプレミス環境とAWS環境を専用線で接続するネットワークサービス",
-              "weight": "regular",
-              "size": "md",
-              "align": "start",
-              "gravity": "center",
-              "margin": "xxl",
-              "wrap": true,
-              "contents": []
-            },
-            {
-              "type": "text",
-              "text": "2.オンプレミス環境とAWSをVPNで接続するネットワークサービス",
-              "weight": "regular",
-              "size": "md",
-              "align": "start",
-              "gravity": "center",
-              "margin": "md",
-              "wrap": true,
-              "contents": []
-            },
-            {
-              "type": "text",
-              "text": "3.GCP,AZUREのパブリッククラウドとAWSを専用線で接続するネットワークサービス",
-              "weight": "regular",
-              "size": "md",
-              "align": "start",
-              "gravity": "center",
-              "margin": "md",
-              "wrap": true,
-              "contents": []
-            },
-            {
-              "type": "text",
-              "text": "4.GCP,AZUREのパブリッククラウドとAWSをインターネットVPNで接続するネットワークサービス",
-              "weight": "regular",
-              "size": "md",
-              "align": "start",
-              "gravity": "center",
-              "margin": "md",
               "wrap": true,
               "contents": []
             }
@@ -389,7 +363,7 @@
               "type": "button",
               "action": {
                 "type": "message",
-                "label": "1",
+                "label": "日本",
                 "text": "1"
               },
               "margin": "md",
@@ -402,7 +376,7 @@
               "type": "button",
               "action": {
                 "type": "message",
-                "label": "2",
+                "label": "アメリカ",
                 "text": "2"
               },
               "margin": "md",
@@ -416,7 +390,7 @@
               "type": "button",
               "action": {
                 "type": "message",
-                "label": "3",
+                "label": "中国",
                 "text": "3"
               },
               "height": "sm",
@@ -428,7 +402,7 @@
               "type": "button",
               "action": {
                 "type": "message",
-                "label": "4",
+                "label": "イギリス",
                 "text": "4"
               },
               "height": "sm",
@@ -443,6 +417,14 @@
       ]
     }
   },
+
+
+
+
+
+
+
+
   "q4":{
     "type": "bubble",
     "direction": "ltr",
@@ -456,66 +438,16 @@
           "contents": [
             {
               "type": "text",
-              "text": "第3問",
+              "text": "【国名クイズ】",
               "align": "start",
               "contents": []
             },
             {
               "type": "text",
-              "text": "AWSは、DirectConnectというサービスを提供しています。DirectConnetの説明として正しいものは次のうちどれですか？",
+              "text": "コアラの生息地として有名な国は？",
               "weight": "regular",
               "align": "start",
               "margin": "sm",
-              "wrap": true,
-              "contents": []
-            }
-          ]
-        },
-        {
-          "type": "box",
-          "layout": "vertical",
-          "contents": [
-            {
-              "type": "text",
-              "text": "1.自社オンプレミス環境とAWS環境を専用線で接続するネットワークサービス",
-              "weight": "regular",
-              "size": "md",
-              "align": "start",
-              "gravity": "center",
-              "margin": "xxl",
-              "wrap": true,
-              "contents": []
-            },
-            {
-              "type": "text",
-              "text": "2.オンプレミス環境とAWSをVPNで接続するネットワークサービス",
-              "weight": "regular",
-              "size": "md",
-              "align": "start",
-              "gravity": "center",
-              "margin": "md",
-              "wrap": true,
-              "contents": []
-            },
-            {
-              "type": "text",
-              "text": "3.GCP,AZUREのパブリッククラウドとAWSを専用線で接続するネットワークサービス",
-              "weight": "regular",
-              "size": "md",
-              "align": "start",
-              "gravity": "center",
-              "margin": "md",
-              "wrap": true,
-              "contents": []
-            },
-            {
-              "type": "text",
-              "text": "4.GCP,AZUREのパブリッククラウドとAWSをインターネットVPNで接続するネットワークサービス",
-              "weight": "regular",
-              "size": "md",
-              "align": "start",
-              "gravity": "center",
-              "margin": "md",
               "wrap": true,
               "contents": []
             }
@@ -537,7 +469,7 @@
               "type": "button",
               "action": {
                 "type": "message",
-                "label": "1",
+                "label": "スペイン",
                 "text": "1"
               },
               "margin": "md",
@@ -550,7 +482,7 @@
               "type": "button",
               "action": {
                 "type": "message",
-                "label": "2",
+                "label": "オーストラリア",
                 "text": "2"
               },
               "margin": "md",
@@ -564,7 +496,7 @@
               "type": "button",
               "action": {
                 "type": "message",
-                "label": "3",
+                "label": "インド",
                 "text": "3"
               },
               "height": "sm",
@@ -576,7 +508,540 @@
               "type": "button",
               "action": {
                 "type": "message",
-                "label": "4",
+                "label": "アメリカ",
+                "text": "4"
+              },
+              "height": "sm",
+              "style": "primary",
+              "offsetTop": "1px",
+              "offsetBottom": "1px",
+              "offsetStart": "0px",
+              "offsetEnd": "0px"
+            }
+          ]
+        }
+      ]
+    }
+  },
+
+
+
+
+
+
+
+
+
+  "q5":{
+    "type": "bubble",
+    "direction": "ltr",
+    "body": {
+      "type": "box",
+      "layout": "vertical",
+      "contents": [
+        {
+          "type": "box",
+          "layout": "vertical",
+          "contents": [
+            {
+              "type": "text",
+              "text": "【国名クイズ】",
+              "align": "start",
+              "contents": []
+            },
+            {
+              "type": "text",
+              "text": "エッフェル塔があるのはどの国？",
+              "weight": "regular",
+              "align": "start",
+              "margin": "sm",
+              "wrap": true,
+              "contents": []
+            }
+          ]
+        }
+      ]
+    },
+    "footer": {
+      "type": "box",
+      "layout": "horizontal",
+      "contents": [
+        {
+          "type": "box",
+          "layout": "vertical",
+          "spacing": "lg",
+          "margin": "md",
+          "contents": [
+            {
+              "type": "button",
+              "action": {
+                "type": "message",
+                "label": "シンガポール",
+                "text": "1"
+              },
+              "margin": "md",
+              "height": "sm",
+              "style": "primary",
+              "offsetTop": "0px",
+              "offsetBottom": "3px"
+            },
+            {
+              "type": "button",
+              "action": {
+                "type": "message",
+                "label": "スペイン",
+                "text": "2"
+              },
+              "margin": "md",
+              "height": "sm",
+              "style": "primary",
+              "position": "relative",
+              "offsetTop": "1px",
+              "offsetBottom": "1px"
+            },
+            {
+              "type": "button",
+              "action": {
+                "type": "message",
+                "label": "フランス",
+                "text": "3"
+              },
+              "height": "sm",
+              "style": "primary",
+              "offsetTop": "1px",
+              "offsetBottom": "1px"
+            },
+            {
+              "type": "button",
+              "action": {
+                "type": "message",
+                "label": "イギリス",
+                "text": "4"
+              },
+              "height": "sm",
+              "style": "primary",
+              "offsetTop": "1px",
+              "offsetBottom": "1px",
+              "offsetStart": "0px",
+              "offsetEnd": "0px"
+            }
+          ]
+        }
+      ]
+    }
+  },
+
+
+
+
+
+
+
+
+  "q6":{
+    "type": "bubble",
+    "direction": "ltr",
+    "body": {
+      "type": "box",
+      "layout": "vertical",
+      "contents": [
+        {
+          "type": "box",
+          "layout": "vertical",
+          "contents": [
+            {
+              "type": "text",
+              "text": "【国名クイズ】",
+              "align": "start",
+              "contents": []
+            },
+            {
+              "type": "text",
+              "text": "エベレストがあるのはどの国？",
+              "weight": "regular",
+              "align": "start",
+              "margin": "sm",
+              "wrap": true,
+              "contents": []
+            }
+          ]
+        }
+      ]
+    },
+    "footer": {
+      "type": "box",
+      "layout": "horizontal",
+      "contents": [
+        {
+          "type": "box",
+          "layout": "vertical",
+          "spacing": "lg",
+          "margin": "md",
+          "contents": [
+            {
+              "type": "button",
+              "action": {
+                "type": "message",
+                "label": "ネパール",
+                "text": "1"
+              },
+              "margin": "md",
+              "height": "sm",
+              "style": "primary",
+              "offsetTop": "0px",
+              "offsetBottom": "3px"
+            },
+            {
+              "type": "button",
+              "action": {
+                "type": "message",
+                "label": "インド",
+                "text": "2"
+              },
+              "margin": "md",
+              "height": "sm",
+              "style": "primary",
+              "position": "relative",
+              "offsetTop": "1px",
+              "offsetBottom": "1px"
+            },
+            {
+              "type": "button",
+              "action": {
+                "type": "message",
+                "label": "韓国",
+                "text": "3"
+              },
+              "height": "sm",
+              "style": "primary",
+              "offsetTop": "1px",
+              "offsetBottom": "1px"
+            },
+            {
+              "type": "button",
+              "action": {
+                "type": "message",
+                "label": "フランス",
+                "text": "4"
+              },
+              "height": "sm",
+              "style": "primary",
+              "offsetTop": "1px",
+              "offsetBottom": "1px",
+              "offsetStart": "0px",
+              "offsetEnd": "0px"
+            }
+          ]
+        }
+      ]
+    }
+  },
+
+
+
+
+
+
+
+
+  "q7":{
+    "type": "bubble",
+    "direction": "ltr",
+    "body": {
+      "type": "box",
+      "layout": "vertical",
+      "contents": [
+        {
+          "type": "box",
+          "layout": "vertical",
+          "contents": [
+            {
+              "type": "text",
+              "text": "【国名クイズ】",
+              "align": "start",
+              "contents": []
+            },
+            {
+              "type": "text",
+              "text": "モアイがあるイースター島はどの国の領土？",
+              "weight": "regular",
+              "align": "start",
+              "margin": "sm",
+              "wrap": true,
+              "contents": []
+            }
+          ]
+        }
+      ]
+    },
+    "footer": {
+      "type": "box",
+      "layout": "horizontal",
+      "contents": [
+        {
+          "type": "box",
+          "layout": "vertical",
+          "spacing": "lg",
+          "margin": "md",
+          "contents": [
+            {
+              "type": "button",
+              "action": {
+                "type": "message",
+                "label": "アメリカ",
+                "text": "1"
+              },
+              "margin": "md",
+              "height": "sm",
+              "style": "primary",
+              "offsetTop": "0px",
+              "offsetBottom": "3px"
+            },
+            {
+              "type": "button",
+              "action": {
+                "type": "message",
+                "label": "日本",
+                "text": "2"
+              },
+              "margin": "md",
+              "height": "sm",
+              "style": "primary",
+              "position": "relative",
+              "offsetTop": "1px",
+              "offsetBottom": "1px"
+            },
+            {
+              "type": "button",
+              "action": {
+                "type": "message",
+                "label": "チリ",
+                "text": "3"
+              },
+              "height": "sm",
+              "style": "primary",
+              "offsetTop": "1px",
+              "offsetBottom": "1px"
+            },
+            {
+              "type": "button",
+              "action": {
+                "type": "message",
+                "label": "キューバ",
+                "text": "4"
+              },
+              "height": "sm",
+              "style": "primary",
+              "offsetTop": "1px",
+              "offsetBottom": "1px",
+              "offsetStart": "0px",
+              "offsetEnd": "0px"
+            }
+          ]
+        }
+      ]
+    }
+  },
+
+
+
+
+
+
+
+
+  "q8":{
+    "type": "bubble",
+    "direction": "ltr",
+    "body": {
+      "type": "box",
+      "layout": "vertical",
+      "contents": [
+        {
+          "type": "box",
+          "layout": "vertical",
+          "contents": [
+            {
+              "type": "text",
+              "text": "【国名クイズ】",
+              "align": "start",
+              "contents": []
+            },
+            {
+              "type": "text",
+              "text": "ピラミッドがあるのはどの国？",
+              "weight": "regular",
+              "align": "start",
+              "margin": "sm",
+              "wrap": true,
+              "contents": []
+            }
+          ]
+        }
+      ]
+    },
+    "footer": {
+      "type": "box",
+      "layout": "horizontal",
+      "contents": [
+        {
+          "type": "box",
+          "layout": "vertical",
+          "spacing": "lg",
+          "margin": "md",
+          "contents": [
+            {
+              "type": "button",
+              "action": {
+                "type": "message",
+                "label": "エジプト",
+                "text": "1"
+              },
+              "margin": "md",
+              "height": "sm",
+              "style": "primary",
+              "offsetTop": "0px",
+              "offsetBottom": "3px"
+            },
+            {
+              "type": "button",
+              "action": {
+                "type": "message",
+                "label": "モロッコ",
+                "text": "2"
+              },
+              "margin": "md",
+              "height": "sm",
+              "style": "primary",
+              "position": "relative",
+              "offsetTop": "1px",
+              "offsetBottom": "1px"
+            },
+            {
+              "type": "button",
+              "action": {
+                "type": "message",
+                "label": "ポルトガル",
+                "text": "3"
+              },
+              "height": "sm",
+              "style": "primary",
+              "offsetTop": "1px",
+              "offsetBottom": "1px"
+            },
+            {
+              "type": "button",
+              "action": {
+                "type": "message",
+                "label": "カナダ",
+                "text": "4"
+              },
+              "height": "sm",
+              "style": "primary",
+              "offsetTop": "1px",
+              "offsetBottom": "1px",
+              "offsetStart": "0px",
+              "offsetEnd": "0px"
+            }
+          ]
+        }
+      ]
+    }
+  },
+
+
+
+
+
+
+
+
+
+
+  "q9":{
+    "type": "bubble",
+    "direction": "ltr",
+    "body": {
+      "type": "box",
+      "layout": "vertical",
+      "contents": [
+        {
+          "type": "box",
+          "layout": "vertical",
+          "contents": [
+            {
+              "type": "text",
+              "text": "【国名クイズ】",
+              "align": "start",
+              "contents": []
+            },
+            {
+              "type": "text",
+              "text": "世界一面積の小さい国は？  ",
+              "weight": "regular",
+              "align": "start",
+              "margin": "sm",
+              "wrap": true,
+              "contents": []
+            }
+          ]
+        }
+      ]
+    },
+    "footer": {
+      "type": "box",
+      "layout": "horizontal",
+      "contents": [
+        {
+          "type": "box",
+          "layout": "vertical",
+          "spacing": "lg",
+          "margin": "md",
+          "contents": [
+            {
+              "type": "button",
+              "action": {
+                "type": "message",
+                "label": "モロッコ",
+                "text": "1"
+              },
+              "margin": "md",
+              "height": "sm",
+              "style": "primary",
+              "offsetTop": "0px",
+              "offsetBottom": "3px"
+            },
+            {
+              "type": "button",
+              "action": {
+                "type": "message",
+                "label": "モナコ公国",
+                "text": "2"
+              },
+              "margin": "md",
+              "height": "sm",
+              "style": "primary",
+              "position": "relative",
+              "offsetTop": "1px",
+              "offsetBottom": "1px"
+            },
+            {
+              "type": "button",
+              "action": {
+                "type": "message",
+                "label": "日本",
+                "text": "3"
+              },
+              "height": "sm",
+              "style": "primary",
+              "offsetTop": "1px",
+              "offsetBottom": "1px"
+            },
+            {
+              "type": "button",
+              "action": {
+                "type": "message",
+                "label": "バチカン市国",
                 "text": "4"
               },
               "height": "sm",

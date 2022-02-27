@@ -1,0 +1,1059 @@
+{
+	"q40":{
+	"type": "bubble",
+	"direction": "ltr",
+	"body": {
+	  "type": "box",
+	  "layout": "vertical",
+	  "contents": [
+		{
+		  "type": "box",
+		  "layout": "vertical",
+		  "contents": [
+			{
+			  "type": "text",
+			  "text": "【計算クイズ】",
+			  "align": "start",
+			  "contents": []
+			},
+			{
+			  "type": "text",
+			  "text": "1 + 3 = ?  ",
+			  "weight": "regular",
+			  "align": "start",
+			  "margin": "sm",
+			  "wrap": true,
+			  "contents": []
+			}
+		  ]
+		}
+	  ]
+	},
+	"footer": {
+	  "type": "box",
+	  "layout": "horizontal",
+	  "contents": [
+		{
+		  "type": "box",
+		  "layout": "vertical",
+		  "spacing": "lg",
+		  "margin": "md",
+		  "contents": [
+			{
+			  "type": "button",
+			  "action": {
+				"type": "message",
+				"label": "[ 10 ]",
+				"text": "1"
+			  },
+			  "margin": "md",
+			  "height": "sm",
+			  "style": "primary",
+			  "offsetTop": "0px",
+			  "offsetBottom": "3px"
+			},
+			{
+			  "type": "button",
+			  "action": {
+				"type": "message",
+				"label": "[ 4 ]",
+				"text": "2"
+			  },
+			  "margin": "md",
+			  "height": "sm",
+			  "style": "primary",
+			  "position": "relative",
+			  "offsetTop": "1px",
+			  "offsetBottom": "1px"
+			},
+			{
+			  "type": "button",
+			  "action": {
+				"type": "message",
+				"label": "[ 5 ]",
+				"text": "3"
+			  },
+			  "height": "sm",
+			  "style": "primary",
+			  "offsetTop": "1px",
+			  "offsetBottom": "1px"
+			},
+			{
+			  "type": "button",
+			  "action": {
+				"type": "message",
+				"label": "[ 3 ]",
+				"text": "4"
+			  },
+			  "height": "sm",
+			  "style": "primary",
+			  "offsetTop": "1px",
+			  "offsetBottom": "1px",
+			  "offsetStart": "0px",
+			  "offsetEnd": "0px"
+			}
+		  ]
+		}
+	  ]
+	}
+  },
+
+
+
+
+
+
+
+
+
+
+
+	"q41":{
+	  "type": "bubble",
+	  "direction": "ltr",
+	  "body": {
+		"type": "box",
+		"layout": "vertical",
+		"contents": [
+		  {
+			"type": "box",
+			"layout": "vertical",
+			"contents": [
+			  {
+				"type": "text",
+				"text": "【計算クイズ】",
+				"align": "start",
+				"contents": []
+			  },
+			  {
+				"type": "text",
+				"text": "4 + 5 = ?  ",
+				"weight": "regular",
+				"align": "start",
+				"margin": "sm",
+				"wrap": true,
+				"contents": []
+			  }
+			]
+		  }
+		]
+	  },
+	  "footer": {
+		"type": "box",
+		"layout": "horizontal",
+		"contents": [
+		  {
+			"type": "box",
+			"layout": "vertical",
+			"spacing": "lg",
+			"margin": "md",
+			"contents": [
+			  {
+				"type": "button",
+				"action": {
+				  "type": "message",
+				  "label": "[ 43 ]",
+				  "text": "1"
+				},
+				"margin": "md",
+				"height": "sm",
+				"style": "primary",
+				"offsetTop": "0px",
+				"offsetBottom": "3px"
+			  },
+			  {
+				"type": "button",
+				"action": {
+				  "type": "message",
+				  "label": "[ 2 ]",
+				  "text": "2"
+				},
+				"margin": "md",
+				"height": "sm",
+				"style": "primary",
+				"position": "relative",
+				"offsetTop": "1px",
+				"offsetBottom": "1px"
+			  },
+			  {
+				"type": "button",
+				"action": {
+				  "type": "message",
+				  "label": "[ 9 ]",
+				  "text": "3"
+				},
+				"height": "sm",
+				"style": "primary",
+				"offsetTop": "1px",
+				"offsetBottom": "1px"
+			  },
+			  {
+				"type": "button",
+				"action": {
+				  "type": "message",
+				  "label": "[ 7 ]",
+				  "text": "4"
+				},
+				"height": "sm",
+				"style": "primary",
+				"offsetTop": "1px",
+				"offsetBottom": "1px",
+				"offsetStart": "0px",
+				"offsetEnd": "0px"
+			  }
+			]
+		  }
+		]
+	  }
+	},
+
+
+
+
+
+
+
+	"q42":{
+	  "type": "bubble",
+	  "direction": "ltr",
+	  "body": {
+		"type": "box",
+		"layout": "vertical",
+		"contents": [
+		  {
+			"type": "box",
+			"layout": "vertical",
+			"contents": [
+			  {
+				"type": "text",
+				"text": "【計算クイズ】",
+				"align": "start",
+				"contents": []
+			  },
+			  {
+				"type": "text",
+				"text": "23 - 5 = ? ",
+				"weight": "regular",
+				"align": "start",
+				"margin": "sm",
+				"wrap": true,
+				"contents": []
+			  }
+			]
+		  }
+		]
+	  },
+	  "footer": {
+		"type": "box",
+		"layout": "horizontal",
+		"contents": [
+		  {
+			"type": "box",
+			"layout": "vertical",
+			"spacing": "lg",
+			"margin": "md",
+			"contents": [
+			  {
+				"type": "button",
+				"action": {
+				  "type": "message",
+				  "label": "[ 18 ]",
+				  "text": "1"
+				},
+				"margin": "md",
+				"height": "sm",
+				"style": "primary",
+				"offsetTop": "0px",
+				"offsetBottom": "3px"
+			  },
+			  {
+				"type": "button",
+				"action": {
+				  "type": "message",
+				  "label": "[ 23 ]",
+				  "text": "2"
+				},
+				"margin": "md",
+				"height": "sm",
+				"style": "primary",
+				"position": "relative",
+				"offsetTop": "1px",
+				"offsetBottom": "1px"
+			  },
+			  {
+				"type": "button",
+				"action": {
+				  "type": "message",
+				  "label": "[ 81 ]",
+				  "text": "3"
+				},
+				"height": "sm",
+				"style": "primary",
+				"offsetTop": "1px",
+				"offsetBottom": "1px"
+			  },
+			  {
+				"type": "button",
+				"action": {
+				  "type": "message",
+				  "label": "[ 64 ]",
+				  "text": "4"
+				},
+				"height": "sm",
+				"style": "primary",
+				"offsetTop": "1px",
+				"offsetBottom": "1px",
+				"offsetStart": "0px",
+				"offsetEnd": "0px"
+			  }
+			]
+		  }
+		]
+	  }
+	},
+
+
+
+
+
+
+
+
+	"q43":{
+	  "type": "bubble",
+	  "direction": "ltr",
+	  "body": {
+		"type": "box",
+		"layout": "vertical",
+		"contents": [
+		  {
+			"type": "box",
+			"layout": "vertical",
+			"contents": [
+			  {
+				"type": "text",
+				"text": "【計算クイズ】",
+				"align": "start",
+				"contents": []
+			  },
+			  {
+				"type": "text",
+				"text": "10 - 9 = ?",
+				"weight": "regular",
+				"align": "start",
+				"margin": "sm",
+				"wrap": true,
+				"contents": []
+			  }
+			]
+		  }
+		]
+	  },
+	  "footer": {
+		"type": "box",
+		"layout": "horizontal",
+		"contents": [
+		  {
+			"type": "box",
+			"layout": "vertical",
+			"spacing": "lg",
+			"margin": "md",
+			"contents": [
+			  {
+				"type": "button",
+				"action": {
+				  "type": "message",
+				  "label": "[ 1 ]",
+				  "text": "1"
+				},
+				"margin": "md",
+				"height": "sm",
+				"style": "primary",
+				"offsetTop": "0px",
+				"offsetBottom": "3px"
+			  },
+			  {
+				"type": "button",
+				"action": {
+				  "type": "message",
+				  "label": "[ 10 ]",
+				  "text": "2"
+				},
+				"margin": "md",
+				"height": "sm",
+				"style": "primary",
+				"position": "relative",
+				"offsetTop": "1px",
+				"offsetBottom": "1px"
+			  },
+			  {
+				"type": "button",
+				"action": {
+				  "type": "message",
+				  "label": "[ 53 ]",
+				  "text": "3"
+				},
+				"height": "sm",
+				"style": "primary",
+				"offsetTop": "1px",
+				"offsetBottom": "1px"
+			  },
+			  {
+				"type": "button",
+				"action": {
+				  "type": "message",
+				  "label": "[ 2 ]",
+				  "text": "4"
+				},
+				"height": "sm",
+				"style": "primary",
+				"offsetTop": "1px",
+				"offsetBottom": "1px",
+				"offsetStart": "0px",
+				"offsetEnd": "0px"
+			  }
+			]
+		  }
+		]
+	  }
+	},
+
+
+
+
+
+
+
+
+	"q44":{
+	  "type": "bubble",
+	  "direction": "ltr",
+	  "body": {
+		"type": "box",
+		"layout": "vertical",
+		"contents": [
+		  {
+			"type": "box",
+			"layout": "vertical",
+			"contents": [
+			  {
+				"type": "text",
+				"text": "【計算クイズ】",
+				"align": "start",
+				"contents": []
+			  },
+			  {
+				"type": "text",
+				"text": "23 x 3 = ?  ",
+				"weight": "regular",
+				"align": "start",
+				"margin": "sm",
+				"wrap": true,
+				"contents": []
+			  }
+			]
+		  }
+		]
+	  },
+	  "footer": {
+		"type": "box",
+		"layout": "horizontal",
+		"contents": [
+		  {
+			"type": "box",
+			"layout": "vertical",
+			"spacing": "lg",
+			"margin": "md",
+			"contents": [
+			  {
+				"type": "button",
+				"action": {
+				  "type": "message",
+				  "label": "[ 10 ]",
+				  "text": "1"
+				},
+				"margin": "md",
+				"height": "sm",
+				"style": "primary",
+				"offsetTop": "0px",
+				"offsetBottom": "3px"
+			  },
+			  {
+				"type": "button",
+				"action": {
+				  "type": "message",
+				  "label": "[ 69 ]",
+				  "text": "2"
+				},
+				"margin": "md",
+				"height": "sm",
+				"style": "primary",
+				"position": "relative",
+				"offsetTop": "1px",
+				"offsetBottom": "1px"
+			  },
+			  {
+				"type": "button",
+				"action": {
+				  "type": "message",
+				  "label": "[ 96 ]",
+				  "text": "3"
+				},
+				"height": "sm",
+				"style": "primary",
+				"offsetTop": "1px",
+				"offsetBottom": "1px"
+			  },
+			  {
+				"type": "button",
+				"action": {
+				  "type": "message",
+				  "label": "[ 23 ]",
+				  "text": "4"
+				},
+				"height": "sm",
+				"style": "primary",
+				"offsetTop": "1px",
+				"offsetBottom": "1px",
+				"offsetStart": "0px",
+				"offsetEnd": "0px"
+			  }
+			]
+		  }
+		]
+	  }
+	},
+
+
+
+
+
+
+
+
+
+	"q45":{
+	  "type": "bubble",
+	  "direction": "ltr",
+	  "body": {
+		"type": "box",
+		"layout": "vertical",
+		"contents": [
+		  {
+			"type": "box",
+			"layout": "vertical",
+			"contents": [
+			  {
+				"type": "text",
+				"text": "【計算クイズ】",
+				"align": "start",
+				"contents": []
+			  },
+			  {
+				"type": "text",
+				"text": "41 x 6 = ?  ",
+				"weight": "regular",
+				"align": "start",
+				"margin": "sm",
+				"wrap": true,
+				"contents": []
+			  }
+			]
+		  }
+		]
+	  },
+	  "footer": {
+		"type": "box",
+		"layout": "horizontal",
+		"contents": [
+		  {
+			"type": "box",
+			"layout": "vertical",
+			"spacing": "lg",
+			"margin": "md",
+			"contents": [
+			  {
+				"type": "button",
+				"action": {
+				  "type": "message",
+				  "label": "[ 534 ]",
+				  "text": "1"
+				},
+				"margin": "md",
+				"height": "sm",
+				"style": "primary",
+				"offsetTop": "0px",
+				"offsetBottom": "3px"
+			  },
+			  {
+				"type": "button",
+				"action": {
+				  "type": "message",
+				  "label": "[ 3131 ]",
+				  "text": "2"
+				},
+				"margin": "md",
+				"height": "sm",
+				"style": "primary",
+				"position": "relative",
+				"offsetTop": "1px",
+				"offsetBottom": "1px"
+			  },
+			  {
+				"type": "button",
+				"action": {
+				  "type": "message",
+				  "label": "[ 246 ]",
+				  "text": "3"
+				},
+				"height": "sm",
+				"style": "primary",
+				"offsetTop": "1px",
+				"offsetBottom": "1px"
+			  },
+			  {
+				"type": "button",
+				"action": {
+				  "type": "message",
+				  "label": "[ 100 ]",
+				  "text": "4"
+				},
+				"height": "sm",
+				"style": "primary",
+				"offsetTop": "1px",
+				"offsetBottom": "1px",
+				"offsetStart": "0px",
+				"offsetEnd": "0px"
+			  }
+			]
+		  }
+		]
+	  }
+	},
+
+
+
+
+
+
+
+
+	"q46":{
+	  "type": "bubble",
+	  "direction": "ltr",
+	  "body": {
+		"type": "box",
+		"layout": "vertical",
+		"contents": [
+		  {
+			"type": "box",
+			"layout": "vertical",
+			"contents": [
+			  {
+				"type": "text",
+				"text": "【計算クイズ】",
+				"align": "start",
+				"contents": []
+			  },
+			  {
+				"type": "text",
+				"text": "32 ÷ 4 = ?  ",
+				"weight": "regular",
+				"align": "start",
+				"margin": "sm",
+				"wrap": true,
+				"contents": []
+			  }
+			]
+		  }
+		]
+	  },
+	  "footer": {
+		"type": "box",
+		"layout": "horizontal",
+		"contents": [
+		  {
+			"type": "box",
+			"layout": "vertical",
+			"spacing": "lg",
+			"margin": "md",
+			"contents": [
+			  {
+				"type": "button",
+				"action": {
+				  "type": "message",
+				  "label": "[ 8 ]",
+				  "text": "1"
+				},
+				"margin": "md",
+				"height": "sm",
+				"style": "primary",
+				"offsetTop": "0px",
+				"offsetBottom": "3px"
+			  },
+			  {
+				"type": "button",
+				"action": {
+				  "type": "message",
+				  "label": "[ 5 ]",
+				  "text": "2"
+				},
+				"margin": "md",
+				"height": "sm",
+				"style": "primary",
+				"position": "relative",
+				"offsetTop": "1px",
+				"offsetBottom": "1px"
+			  },
+			  {
+				"type": "button",
+				"action": {
+				  "type": "message",
+				  "label": "[ 2 ]",
+				  "text": "3"
+				},
+				"height": "sm",
+				"style": "primary",
+				"offsetTop": "1px",
+				"offsetBottom": "1px"
+			  },
+			  {
+				"type": "button",
+				"action": {
+				  "type": "message",
+				  "label": "[ 4 ]",
+				  "text": "4"
+				},
+				"height": "sm",
+				"style": "primary",
+				"offsetTop": "1px",
+				"offsetBottom": "1px",
+				"offsetStart": "0px",
+				"offsetEnd": "0px"
+			  }
+			]
+		  }
+		]
+	  }
+	},
+
+
+
+
+
+
+
+
+	"q47":{
+	  "type": "bubble",
+	  "direction": "ltr",
+	  "body": {
+		"type": "box",
+		"layout": "vertical",
+		"contents": [
+		  {
+			"type": "box",
+			"layout": "vertical",
+			"contents": [
+			  {
+				"type": "text",
+				"text": "【計算クイズ】",
+				"align": "start",
+				"contents": []
+			  },
+			  {
+				"type": "text",
+				"text": "343 + 23 = ?  ",
+				"weight": "regular",
+				"align": "start",
+				"margin": "sm",
+				"wrap": true,
+				"contents": []
+			  }
+			]
+		  }
+		]
+	  },
+	  "footer": {
+		"type": "box",
+		"layout": "horizontal",
+		"contents": [
+		  {
+			"type": "box",
+			"layout": "vertical",
+			"spacing": "lg",
+			"margin": "md",
+			"contents": [
+			  {
+				"type": "button",
+				"action": {
+				  "type": "message",
+				  "label": "[ 230 ]",
+				  "text": "1"
+				},
+				"margin": "md",
+				"height": "sm",
+				"style": "primary",
+				"offsetTop": "0px",
+				"offsetBottom": "3px"
+			  },
+			  {
+				"type": "button",
+				"action": {
+				  "type": "message",
+				  "label": "[ 330 ]",
+				  "text": "2"
+				},
+				"margin": "md",
+				"height": "sm",
+				"style": "primary",
+				"position": "relative",
+				"offsetTop": "1px",
+				"offsetBottom": "1px"
+			  },
+			  {
+				"type": "button",
+				"action": {
+				  "type": "message",
+				  "label": "[ 440 ]",
+				  "text": "3"
+				},
+				"height": "sm",
+				"style": "primary",
+				"offsetTop": "1px",
+				"offsetBottom": "1px"
+			  },
+			  {
+				"type": "button",
+				"action": {
+				  "type": "message",
+				  "label": "[ 320 ]",
+				  "text": "4"
+				},
+				"height": "sm",
+				"style": "primary",
+				"offsetTop": "1px",
+				"offsetBottom": "1px",
+				"offsetStart": "0px",
+				"offsetEnd": "0px"
+			  }
+			]
+		  }
+		]
+	  }
+	},
+
+
+
+
+
+
+
+
+	"q48":{
+	  "type": "bubble",
+	  "direction": "ltr",
+	  "body": {
+		"type": "box",
+		"layout": "vertical",
+		"contents": [
+		  {
+			"type": "box",
+			"layout": "vertical",
+			"contents": [
+			  {
+				"type": "text",
+				"text": "【計算クイズ】",
+				"align": "start",
+				"contents": []
+			  },
+			  {
+				"type": "text",
+				"text": "541 + 9 = ?  ",
+				"weight": "regular",
+				"align": "start",
+				"margin": "sm",
+				"wrap": true,
+				"contents": []
+			  }
+			]
+		  }
+		]
+	  },
+	  "footer": {
+		"type": "box",
+		"layout": "horizontal",
+		"contents": [
+		  {
+			"type": "box",
+			"layout": "vertical",
+			"spacing": "lg",
+			"margin": "md",
+			"contents": [
+			  {
+				"type": "button",
+				"action": {
+				  "type": "message",
+				  "label": "[ 450 ]",
+				  "text": "1"
+				},
+				"margin": "md",
+				"height": "sm",
+				"style": "primary",
+				"offsetTop": "0px",
+				"offsetBottom": "3px"
+			  },
+			  {
+				"type": "button",
+				"action": {
+				  "type": "message",
+				  "label": "[ 440 ]",
+				  "text": "2"
+				},
+				"margin": "md",
+				"height": "sm",
+				"style": "primary",
+				"position": "relative",
+				"offsetTop": "1px",
+				"offsetBottom": "1px"
+			  },
+			  {
+				"type": "button",
+				"action": {
+				  "type": "message",
+				  "label": "[ 600 ]",
+				  "text": "3"
+				},
+				"height": "sm",
+				"style": "primary",
+				"offsetTop": "1px",
+				"offsetBottom": "1px"
+			  },
+			  {
+				"type": "button",
+				"action": {
+				  "type": "message",
+				  "label": "[ 550 ]",
+				  "text": "4"
+				},
+				"height": "sm",
+				"style": "primary",
+				"offsetTop": "1px",
+				"offsetBottom": "1px",
+				"offsetStart": "0px",
+				"offsetEnd": "0px"
+			  }
+			]
+		  }
+		]
+	  }
+	},
+
+
+
+
+
+
+
+
+
+
+	"q49":{
+	  "type": "bubble",
+	  "direction": "ltr",
+	  "body": {
+		"type": "box",
+		"layout": "vertical",
+		"contents": [
+		  {
+			"type": "box",
+			"layout": "vertical",
+			"contents": [
+			  {
+				"type": "text",
+				"text": "【計算クイズ】",
+				"align": "start",
+				"contents": []
+			  },
+			  {
+				"type": "text",
+				"text": "43 - 4 = ？  ",
+				"weight": "regular",
+				"align": "start",
+				"margin": "sm",
+				"wrap": true,
+				"contents": []
+			  }
+			]
+		  }
+		]
+	  },
+	  "footer": {
+		"type": "box",
+		"layout": "horizontal",
+		"contents": [
+		  {
+			"type": "box",
+			"layout": "vertical",
+			"spacing": "lg",
+			"margin": "md",
+			"contents": [
+			  {
+				"type": "button",
+				"action": {
+				  "type": "message",
+				  "label": "[ 43 ]",
+				  "text": "1"
+				},
+				"margin": "md",
+				"height": "sm",
+				"style": "primary",
+				"offsetTop": "0px",
+				"offsetBottom": "3px"
+			  },
+			  {
+				"type": "button",
+				"action": {
+				  "type": "message",
+				  "label": "[ 21 ]",
+				  "text": "2"
+				},
+				"margin": "md",
+				"height": "sm",
+				"style": "primary",
+				"position": "relative",
+				"offsetTop": "1px",
+				"offsetBottom": "1px"
+			  },
+			  {
+				"type": "button",
+				"action": {
+				  "type": "message",
+				  "label": "[ 29 ]",
+				  "text": "3"
+				},
+				"height": "sm",
+				"style": "primary",
+				"offsetTop": "1px",
+				"offsetBottom": "1px"
+			  },
+			  {
+				"type": "button",
+				"action": {
+				  "type": "message",
+				  "label": "[ 39 ]",
+				  "text": "4"
+				},
+				"height": "sm",
+				"style": "primary",
+				"offsetTop": "1px",
+				"offsetBottom": "1px",
+				"offsetStart": "0px",
+				"offsetEnd": "0px"
+			  }
+			]
+		  }
+		]
+	  }
+	}
+  }

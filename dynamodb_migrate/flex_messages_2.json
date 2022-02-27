@@ -1,0 +1,1059 @@
+{
+	"q20":{
+	"type": "bubble",
+	"direction": "ltr",
+	"body": {
+	  "type": "box",
+	  "layout": "vertical",
+	  "contents": [
+		{
+		  "type": "box",
+		  "layout": "vertical",
+		  "contents": [
+			{
+			  "type": "text",
+			  "text": "【科学クイズ】",
+			  "align": "start",
+			  "contents": []
+			},
+			{
+			  "type": "text",
+			  "text": "アポロ11号が着陸した星の名前は？  ",
+			  "weight": "regular",
+			  "align": "start",
+			  "margin": "sm",
+			  "wrap": true,
+			  "contents": []
+			}
+		  ]
+		}
+	  ]
+	},
+	"footer": {
+	  "type": "box",
+	  "layout": "horizontal",
+	  "contents": [
+		{
+		  "type": "box",
+		  "layout": "vertical",
+		  "spacing": "lg",
+		  "margin": "md",
+		  "contents": [
+			{
+			  "type": "button",
+			  "action": {
+				"type": "message",
+				"label": "太陽",
+				"text": "1"
+			  },
+			  "margin": "md",
+			  "height": "sm",
+			  "style": "primary",
+			  "offsetTop": "0px",
+			  "offsetBottom": "3px"
+			},
+			{
+			  "type": "button",
+			  "action": {
+				"type": "message",
+				"label": "火星",
+				"text": "2"
+			  },
+			  "margin": "md",
+			  "height": "sm",
+			  "style": "primary",
+			  "position": "relative",
+			  "offsetTop": "1px",
+			  "offsetBottom": "1px"
+			},
+			{
+			  "type": "button",
+			  "action": {
+				"type": "message",
+				"label": "土星",
+				"text": "3"
+			  },
+			  "height": "sm",
+			  "style": "primary",
+			  "offsetTop": "1px",
+			  "offsetBottom": "1px"
+			},
+			{
+			  "type": "button",
+			  "action": {
+				"type": "message",
+				"label": "月",
+				"text": "4"
+			  },
+			  "height": "sm",
+			  "style": "primary",
+			  "offsetTop": "1px",
+			  "offsetBottom": "1px",
+			  "offsetStart": "0px",
+			  "offsetEnd": "0px"
+			}
+		  ]
+		}
+	  ]
+	}
+  },
+
+
+
+
+
+
+
+
+
+
+
+	"q21":{
+	  "type": "bubble",
+	  "direction": "ltr",
+	  "body": {
+		"type": "box",
+		"layout": "vertical",
+		"contents": [
+		  {
+			"type": "box",
+			"layout": "vertical",
+			"contents": [
+			  {
+				"type": "text",
+				"text": "【科学クイズ】",
+				"align": "start",
+				"contents": []
+			  },
+			  {
+				"type": "text",
+				"text": "チョコレートやワインに多く含まれる栄養素は？  ",
+				"weight": "regular",
+				"align": "start",
+				"margin": "sm",
+				"wrap": true,
+				"contents": []
+			  }
+			]
+		  }
+		]
+	  },
+	  "footer": {
+		"type": "box",
+		"layout": "horizontal",
+		"contents": [
+		  {
+			"type": "box",
+			"layout": "vertical",
+			"spacing": "lg",
+			"margin": "md",
+			"contents": [
+			  {
+				"type": "button",
+				"action": {
+				  "type": "message",
+				  "label": "二酸化炭素",
+				  "text": "1"
+				},
+				"margin": "md",
+				"height": "sm",
+				"style": "primary",
+				"offsetTop": "0px",
+				"offsetBottom": "3px"
+			  },
+			  {
+				"type": "button",
+				"action": {
+				  "type": "message",
+				  "label": "ポリフェノール",
+				  "text": "2"
+				},
+				"margin": "md",
+				"height": "sm",
+				"style": "primary",
+				"position": "relative",
+				"offsetTop": "1px",
+				"offsetBottom": "1px"
+			  },
+			  {
+				"type": "button",
+				"action": {
+				  "type": "message",
+				  "label": "タンパク質",
+				  "text": "3"
+				},
+				"height": "sm",
+				"style": "primary",
+				"offsetTop": "1px",
+				"offsetBottom": "1px"
+			  },
+			  {
+				"type": "button",
+				"action": {
+				  "type": "message",
+				  "label": "ナトリウム",
+				  "text": "4"
+				},
+				"height": "sm",
+				"style": "primary",
+				"offsetTop": "1px",
+				"offsetBottom": "1px",
+				"offsetStart": "0px",
+				"offsetEnd": "0px"
+			  }
+			]
+		  }
+		]
+	  }
+	},
+
+
+
+
+
+
+
+	"q22":{
+	  "type": "bubble",
+	  "direction": "ltr",
+	  "body": {
+		"type": "box",
+		"layout": "vertical",
+		"contents": [
+		  {
+			"type": "box",
+			"layout": "vertical",
+			"contents": [
+			  {
+				"type": "text",
+				"text": "【科学クイズ】",
+				"align": "start",
+				"contents": []
+			  },
+			  {
+				"type": "text",
+				"text": "コメやパンの主成分といえば？ ",
+				"weight": "regular",
+				"align": "start",
+				"margin": "sm",
+				"wrap": true,
+				"contents": []
+			  }
+			]
+		  }
+		]
+	  },
+	  "footer": {
+		"type": "box",
+		"layout": "horizontal",
+		"contents": [
+		  {
+			"type": "box",
+			"layout": "vertical",
+			"spacing": "lg",
+			"margin": "md",
+			"contents": [
+			  {
+				"type": "button",
+				"action": {
+				  "type": "message",
+				  "label": "タンパク質",
+				  "text": "1"
+				},
+				"margin": "md",
+				"height": "sm",
+				"style": "primary",
+				"offsetTop": "0px",
+				"offsetBottom": "3px"
+			  },
+			  {
+				"type": "button",
+				"action": {
+				  "type": "message",
+				  "label": "ビタミン",
+				  "text": "2"
+				},
+				"margin": "md",
+				"height": "sm",
+				"style": "primary",
+				"position": "relative",
+				"offsetTop": "1px",
+				"offsetBottom": "1px"
+			  },
+			  {
+				"type": "button",
+				"action": {
+				  "type": "message",
+				  "label": "炭水化物",
+				  "text": "3"
+				},
+				"height": "sm",
+				"style": "primary",
+				"offsetTop": "1px",
+				"offsetBottom": "1px"
+			  },
+			  {
+				"type": "button",
+				"action": {
+				  "type": "message",
+				  "label": "脂質",
+				  "text": "4"
+				},
+				"height": "sm",
+				"style": "primary",
+				"offsetTop": "1px",
+				"offsetBottom": "1px",
+				"offsetStart": "0px",
+				"offsetEnd": "0px"
+			  }
+			]
+		  }
+		]
+	  }
+	},
+
+
+
+
+
+
+
+
+	"q23":{
+	  "type": "bubble",
+	  "direction": "ltr",
+	  "body": {
+		"type": "box",
+		"layout": "vertical",
+		"contents": [
+		  {
+			"type": "box",
+			"layout": "vertical",
+			"contents": [
+			  {
+				"type": "text",
+				"text": "【科学クイズ】",
+				"align": "start",
+				"contents": []
+			  },
+			  {
+				"type": "text",
+				"text": "アルミ缶の「アルミ」とは何の略？  ",
+				"weight": "regular",
+				"align": "start",
+				"margin": "sm",
+				"wrap": true,
+				"contents": []
+			  }
+			]
+		  }
+		]
+	  },
+	  "footer": {
+		"type": "box",
+		"layout": "horizontal",
+		"contents": [
+		  {
+			"type": "box",
+			"layout": "vertical",
+			"spacing": "lg",
+			"margin": "md",
+			"contents": [
+			  {
+				"type": "button",
+				"action": {
+				  "type": "message",
+				  "label": "アルミニウム",
+				  "text": "1"
+				},
+				"margin": "md",
+				"height": "sm",
+				"style": "primary",
+				"offsetTop": "0px",
+				"offsetBottom": "3px"
+			  },
+			  {
+				"type": "button",
+				"action": {
+				  "type": "message",
+				  "label": "アルミタ",
+				  "text": "2"
+				},
+				"margin": "md",
+				"height": "sm",
+				"style": "primary",
+				"position": "relative",
+				"offsetTop": "1px",
+				"offsetBottom": "1px"
+			  },
+			  {
+				"type": "button",
+				"action": {
+				  "type": "message",
+				  "label": "アールミー",
+				  "text": "3"
+				},
+				"height": "sm",
+				"style": "primary",
+				"offsetTop": "1px",
+				"offsetBottom": "1px"
+			  },
+			  {
+				"type": "button",
+				"action": {
+				  "type": "message",
+				  "label": "アラウンド",
+				  "text": "4"
+				},
+				"height": "sm",
+				"style": "primary",
+				"offsetTop": "1px",
+				"offsetBottom": "1px",
+				"offsetStart": "0px",
+				"offsetEnd": "0px"
+			  }
+			]
+		  }
+		]
+	  }
+	},
+
+
+
+
+
+
+
+
+	"q24":{
+	  "type": "bubble",
+	  "direction": "ltr",
+	  "body": {
+		"type": "box",
+		"layout": "vertical",
+		"contents": [
+		  {
+			"type": "box",
+			"layout": "vertical",
+			"contents": [
+			  {
+				"type": "text",
+				"text": "【科学クイズ】",
+				"align": "start",
+				"contents": []
+			  },
+			  {
+				"type": "text",
+				"text": "骨を構成する主成分といえば？  ",
+				"weight": "regular",
+				"align": "start",
+				"margin": "sm",
+				"wrap": true,
+				"contents": []
+			  }
+			]
+		  }
+		]
+	  },
+	  "footer": {
+		"type": "box",
+		"layout": "horizontal",
+		"contents": [
+		  {
+			"type": "box",
+			"layout": "vertical",
+			"spacing": "lg",
+			"margin": "md",
+			"contents": [
+			  {
+				"type": "button",
+				"action": {
+				  "type": "message",
+				  "label": "水素",
+				  "text": "1"
+				},
+				"margin": "md",
+				"height": "sm",
+				"style": "primary",
+				"offsetTop": "0px",
+				"offsetBottom": "3px"
+			  },
+			  {
+				"type": "button",
+				"action": {
+				  "type": "message",
+				  "label": "カルシウム",
+				  "text": "2"
+				},
+				"margin": "md",
+				"height": "sm",
+				"style": "primary",
+				"position": "relative",
+				"offsetTop": "1px",
+				"offsetBottom": "1px"
+			  },
+			  {
+				"type": "button",
+				"action": {
+				  "type": "message",
+				  "label": "タンパク質",
+				  "text": "3"
+				},
+				"height": "sm",
+				"style": "primary",
+				"offsetTop": "1px",
+				"offsetBottom": "1px"
+			  },
+			  {
+				"type": "button",
+				"action": {
+				  "type": "message",
+				  "label": "脂質",
+				  "text": "4"
+				},
+				"height": "sm",
+				"style": "primary",
+				"offsetTop": "1px",
+				"offsetBottom": "1px",
+				"offsetStart": "0px",
+				"offsetEnd": "0px"
+			  }
+			]
+		  }
+		]
+	  }
+	},
+
+
+
+
+
+
+
+
+
+	"q25":{
+	  "type": "bubble",
+	  "direction": "ltr",
+	  "body": {
+		"type": "box",
+		"layout": "vertical",
+		"contents": [
+		  {
+			"type": "box",
+			"layout": "vertical",
+			"contents": [
+			  {
+				"type": "text",
+				"text": "【科学クイズ】",
+				"align": "start",
+				"contents": []
+			  },
+			  {
+				"type": "text",
+				"text": "鶏レバーやアンコウに多く含まれ、痛憤の原因ともなる成分は？  ",
+				"weight": "regular",
+				"align": "start",
+				"margin": "sm",
+				"wrap": true,
+				"contents": []
+			  }
+			]
+		  }
+		]
+	  },
+	  "footer": {
+		"type": "box",
+		"layout": "horizontal",
+		"contents": [
+		  {
+			"type": "box",
+			"layout": "vertical",
+			"spacing": "lg",
+			"margin": "md",
+			"contents": [
+			  {
+				"type": "button",
+				"action": {
+				  "type": "message",
+				  "label": "プリン体",
+				  "text": "1"
+				},
+				"margin": "md",
+				"height": "sm",
+				"style": "primary",
+				"offsetTop": "0px",
+				"offsetBottom": "3px"
+			  },
+			  {
+				"type": "button",
+				"action": {
+				  "type": "message",
+				  "label": "脂質",
+				  "text": "2"
+				},
+				"margin": "md",
+				"height": "sm",
+				"style": "primary",
+				"position": "relative",
+				"offsetTop": "1px",
+				"offsetBottom": "1px"
+			  },
+			  {
+				"type": "button",
+				"action": {
+				  "type": "message",
+				  "label": "カルシウム",
+				  "text": "3"
+				},
+				"height": "sm",
+				"style": "primary",
+				"offsetTop": "1px",
+				"offsetBottom": "1px"
+			  },
+			  {
+				"type": "button",
+				"action": {
+				  "type": "message",
+				  "label": "ビタミン",
+				  "text": "4"
+				},
+				"height": "sm",
+				"style": "primary",
+				"offsetTop": "1px",
+				"offsetBottom": "1px",
+				"offsetStart": "0px",
+				"offsetEnd": "0px"
+			  }
+			]
+		  }
+		]
+	  }
+	},
+
+
+
+
+
+
+
+
+	"q26":{
+	  "type": "bubble",
+	  "direction": "ltr",
+	  "body": {
+		"type": "box",
+		"layout": "vertical",
+		"contents": [
+		  {
+			"type": "box",
+			"layout": "vertical",
+			"contents": [
+			  {
+				"type": "text",
+				"text": "【科学クイズ】",
+				"align": "start",
+				"contents": []
+			  },
+			  {
+				"type": "text",
+				"text": "水が水蒸気に変化する現象をなんという？  ",
+				"weight": "regular",
+				"align": "start",
+				"margin": "sm",
+				"wrap": true,
+				"contents": []
+			  }
+			]
+		  }
+		]
+	  },
+	  "footer": {
+		"type": "box",
+		"layout": "horizontal",
+		"contents": [
+		  {
+			"type": "box",
+			"layout": "vertical",
+			"spacing": "lg",
+			"margin": "md",
+			"contents": [
+			  {
+				"type": "button",
+				"action": {
+				  "type": "message",
+				  "label": "ヒートアイランド",
+				  "text": "1"
+				},
+				"margin": "md",
+				"height": "sm",
+				"style": "primary",
+				"offsetTop": "0px",
+				"offsetBottom": "3px"
+			  },
+			  {
+				"type": "button",
+				"action": {
+				  "type": "message",
+				  "label": "蒸発",
+				  "text": "2"
+				},
+				"margin": "md",
+				"height": "sm",
+				"style": "primary",
+				"position": "relative",
+				"offsetTop": "1px",
+				"offsetBottom": "1px"
+			  },
+			  {
+				"type": "button",
+				"action": {
+				  "type": "message",
+				  "label": "冷却",
+				  "text": "3"
+				},
+				"height": "sm",
+				"style": "primary",
+				"offsetTop": "1px",
+				"offsetBottom": "1px"
+			  },
+			  {
+				"type": "button",
+				"action": {
+				  "type": "message",
+				  "label": "睡眠",
+				  "text": "4"
+				},
+				"height": "sm",
+				"style": "primary",
+				"offsetTop": "1px",
+				"offsetBottom": "1px",
+				"offsetStart": "0px",
+				"offsetEnd": "0px"
+			  }
+			]
+		  }
+		]
+	  }
+	},
+
+
+
+
+
+
+
+
+	"q27":{
+	  "type": "bubble",
+	  "direction": "ltr",
+	  "body": {
+		"type": "box",
+		"layout": "vertical",
+		"contents": [
+		  {
+			"type": "box",
+			"layout": "vertical",
+			"contents": [
+			  {
+				"type": "text",
+				"text": "【科学クイズ】",
+				"align": "start",
+				"contents": []
+			  },
+			  {
+				"type": "text",
+				"text": "次の中で昆虫ではないのはどれ？  ",
+				"weight": "regular",
+				"align": "start",
+				"margin": "sm",
+				"wrap": true,
+				"contents": []
+			  }
+			]
+		  }
+		]
+	  },
+	  "footer": {
+		"type": "box",
+		"layout": "horizontal",
+		"contents": [
+		  {
+			"type": "box",
+			"layout": "vertical",
+			"spacing": "lg",
+			"margin": "md",
+			"contents": [
+			  {
+				"type": "button",
+				"action": {
+				  "type": "message",
+				  "label": "カブトムシ",
+				  "text": "1"
+				},
+				"margin": "md",
+				"height": "sm",
+				"style": "primary",
+				"offsetTop": "0px",
+				"offsetBottom": "3px"
+			  },
+			  {
+				"type": "button",
+				"action": {
+				  "type": "message",
+				  "label": "ゴキブリ",
+				  "text": "2"
+				},
+				"margin": "md",
+				"height": "sm",
+				"style": "primary",
+				"position": "relative",
+				"offsetTop": "1px",
+				"offsetBottom": "1px"
+			  },
+			  {
+				"type": "button",
+				"action": {
+				  "type": "message",
+				  "label": "カナブン",
+				  "text": "3"
+				},
+				"height": "sm",
+				"style": "primary",
+				"offsetTop": "1px",
+				"offsetBottom": "1px"
+			  },
+			  {
+				"type": "button",
+				"action": {
+				  "type": "message",
+				  "label": "トカゲ",
+				  "text": "4"
+				},
+				"height": "sm",
+				"style": "primary",
+				"offsetTop": "1px",
+				"offsetBottom": "1px",
+				"offsetStart": "0px",
+				"offsetEnd": "0px"
+			  }
+			]
+		  }
+		]
+	  }
+	},
+
+
+
+
+
+
+
+
+	"q28":{
+	  "type": "bubble",
+	  "direction": "ltr",
+	  "body": {
+		"type": "box",
+		"layout": "vertical",
+		"contents": [
+		  {
+			"type": "box",
+			"layout": "vertical",
+			"contents": [
+			  {
+				"type": "text",
+				"text": "【科学クイズ】",
+				"align": "start",
+				"contents": []
+			  },
+			  {
+				"type": "text",
+				"text": "次の中で肉を主食としない動物はどれ？  ",
+				"weight": "regular",
+				"align": "start",
+				"margin": "sm",
+				"wrap": true,
+				"contents": []
+			  }
+			]
+		  }
+		]
+	  },
+	  "footer": {
+		"type": "box",
+		"layout": "horizontal",
+		"contents": [
+		  {
+			"type": "box",
+			"layout": "vertical",
+			"spacing": "lg",
+			"margin": "md",
+			"contents": [
+			  {
+				"type": "button",
+				"action": {
+				  "type": "message",
+				  "label": "ライオン",
+				  "text": "1"
+				},
+				"margin": "md",
+				"height": "sm",
+				"style": "primary",
+				"offsetTop": "0px",
+				"offsetBottom": "3px"
+			  },
+			  {
+				"type": "button",
+				"action": {
+				  "type": "message",
+				  "label": "トラ",
+				  "text": "2"
+				},
+				"margin": "md",
+				"height": "sm",
+				"style": "primary",
+				"position": "relative",
+				"offsetTop": "1px",
+				"offsetBottom": "1px"
+			  },
+			  {
+				"type": "button",
+				"action": {
+				  "type": "message",
+				  "label": "ウマ",
+				  "text": "3"
+				},
+				"height": "sm",
+				"style": "primary",
+				"offsetTop": "1px",
+				"offsetBottom": "1px"
+			  },
+			  {
+				"type": "button",
+				"action": {
+				  "type": "message",
+				  "label": "チーター",
+				  "text": "4"
+				},
+				"height": "sm",
+				"style": "primary",
+				"offsetTop": "1px",
+				"offsetBottom": "1px",
+				"offsetStart": "0px",
+				"offsetEnd": "0px"
+			  }
+			]
+		  }
+		]
+	  }
+	},
+
+
+
+
+
+
+
+
+
+
+	"q29":{
+	  "type": "bubble",
+	  "direction": "ltr",
+	  "body": {
+		"type": "box",
+		"layout": "vertical",
+		"contents": [
+		  {
+			"type": "box",
+			"layout": "vertical",
+			"contents": [
+			  {
+				"type": "text",
+				"text": "【科学クイズ】",
+				"align": "start",
+				"contents": []
+			  },
+			  {
+				"type": "text",
+				"text": "りんごが木から落ちるのをみて重力に関する発見をした人物は？  ",
+				"weight": "regular",
+				"align": "start",
+				"margin": "sm",
+				"wrap": true,
+				"contents": []
+			  }
+			]
+		  }
+		]
+	  },
+	  "footer": {
+		"type": "box",
+		"layout": "horizontal",
+		"contents": [
+		  {
+			"type": "box",
+			"layout": "vertical",
+			"spacing": "lg",
+			"margin": "md",
+			"contents": [
+			  {
+				"type": "button",
+				"action": {
+				  "type": "message",
+				  "label": "オバマ",
+				  "text": "1"
+				},
+				"margin": "md",
+				"height": "sm",
+				"style": "primary",
+				"offsetTop": "0px",
+				"offsetBottom": "3px"
+			  },
+			  {
+				"type": "button",
+				"action": {
+				  "type": "message",
+				  "label": "湯川秀樹",
+				  "text": "2"
+				},
+				"margin": "md",
+				"height": "sm",
+				"style": "primary",
+				"position": "relative",
+				"offsetTop": "1px",
+				"offsetBottom": "1px"
+			  },
+			  {
+				"type": "button",
+				"action": {
+				  "type": "message",
+				  "label": "野口英世",
+				  "text": "3"
+				},
+				"height": "sm",
+				"style": "primary",
+				"offsetTop": "1px",
+				"offsetBottom": "1px"
+			  },
+			  {
+				"type": "button",
+				"action": {
+				  "type": "message",
+				  "label": "ニュートン",
+				  "text": "4"
+				},
+				"height": "sm",
+				"style": "primary",
+				"offsetTop": "1px",
+				"offsetBottom": "1px",
+				"offsetStart": "0px",
+				"offsetEnd": "0px"
+			  }
+			]
+		  }
+		]
+	  }
+	}
+  }
