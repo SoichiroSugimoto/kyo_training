@@ -6,8 +6,8 @@ if not Score.exists():
   Score.create_table(read_capacity_units=1,
                     write_capacity_units=1, wait=True)
 
-with open('flex_messages.json', 'r',encoding="utf-8") as f:
-    flex_messages = json.load(f)
+# with open('flex_messages.json', 'r',encoding="utf-8") as f:
+#     flex_messages = json.load(f)
 # with open('flex_messages_1.json', 'r',encoding="utf-8") as f:
 #     flex_messages = json.load(f)
 # with open('flex_messages_2.json', 'r',encoding="utf-8") as f:
@@ -25,6 +25,24 @@ cnt = 0
 while cnt <= 9:
     cnt += 1
     index = random.randrange(9)
+    if 0 <= index <= 9:
+        with open('flex_messages.json', 'r',encoding="utf-8") as f:
+            flex_messages = json.load(f)
+    if 10 <= index <= 19:
+        with open('flex_messages_1.json', 'r',encoding="utf-8") as f:
+            flex_messages = json.load(f)
+    if 20 <= index <= 29:
+        with open('flex_messages_2.json', 'r',encoding="utf-8") as f:
+            flex_messages = json.load(f)
+    if 30 <= index <= 39:
+        with open('flex_messages_3.json', 'r',encoding="utf-8") as f:
+            flex_messages = json.load(f)
+    if 40 <= index <= 49:
+        with open('flex_messages_4.json', 'r',encoding="utf-8") as f:
+            flex_messages = json.load(f)
+    if 50 <= index <= 59:
+        with open('flex_messages_5.json', 'r',encoding="utf-8") as f:
+            flex_messages = json.load(f)
     if index == 0:
         Score(question_id='q0', question=json.dumps(flex_messages['q0']),
             answer='3', score=1).save()
