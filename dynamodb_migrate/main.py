@@ -8,23 +8,23 @@ if not Score.exists():
 
 with open('flex_messages.json', 'r',encoding="utf-8") as f:
     flex_messages = json.load(f)
-with open('flex_messages_1.json', 'r',encoding="utf-8") as f:
-    flex_messages = json.load(f)
-with open('flex_messages_2.json', 'r',encoding="utf-8") as f:
-    flex_messages = json.load(f)
-with open('flex_messages_3.json', 'r',encoding="utf-8") as f:
-    flex_messages = json.load(f)
-with open('flex_messages_4.json', 'r',encoding="utf-8") as f:
-    flex_messages = json.load(f)
-with open('flex_messages_5.json', 'r',encoding="utf-8") as f:
-    flex_messages = json.load(f)
+# with open('flex_messages_1.json', 'r',encoding="utf-8") as f:
+#     flex_messages = json.load(f)
+# with open('flex_messages_2.json', 'r',encoding="utf-8") as f:
+#     flex_messages = json.load(f)
+# with open('flex_messages_3.json', 'r',encoding="utf-8") as f:
+#     flex_messages = json.load(f)
+# with open('flex_messages_4.json', 'r',encoding="utf-8") as f:
+#     flex_messages = json.load(f)
+# with open('flex_messages_5.json', 'r',encoding="utf-8") as f:
+#     flex_messages = json.load(f)
 
 index = random.randrange(59)
 cnt = 0
 
 while cnt <= 9:
     cnt += 1
-    index = random.randrange(59)
+    index = random.randrange(9)
     if index == 0:
         Score(question_id='q0', question=json.dumps(flex_messages['q0']),
             answer='3', score=1).save()
@@ -32,7 +32,7 @@ while cnt <= 9:
         Score(question_id='q1', question=json.dumps(flex_messages['q1']),
             answer='1', score=1).save()
     elif index == 2:
-        Score(question_id='q3', question=json.dumps(flex_messages['q3']),
+        Score(question_id='q2', question=json.dumps(flex_messages['q2']),
             answer='2', score=1).save()
     elif index == 3:
         Score(question_id='q3', question=json.dumps(flex_messages['q3']),

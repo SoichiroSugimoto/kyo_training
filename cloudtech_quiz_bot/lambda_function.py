@@ -15,11 +15,17 @@ line_bot = LineBotApi(access_token)
 # 問題毎のユーザスコアを格納するクラス
 # UserScore モデルから参照
 class ScoreMap(MapAttribute):
+  q0 = NumberAttribute(null=True)
   q1 = NumberAttribute(null=True)
   q2 = NumberAttribute(null=True)
   q3 = NumberAttribute(null=True)
   q4 = NumberAttribute(null=True)
   q5 = NumberAttribute(null=True)
+  q6 = NumberAttribute(null=True)
+  q7 = NumberAttribute(null=True)
+  q8 = NumberAttribute(null=True)
+  q8 = NumberAttribute(null=True)
+  q9 = NumberAttribute(null=True)
 
 dynamodb = boto3.resource('dynamodb')
 scores = dynamodb.Table('Score')
@@ -42,7 +48,11 @@ def get_result(question, answer):
     return score
 
 def get_next_question(inserted_question):
-    if inserted_question == 'q1':
+    if inserted_question == 'q0':
+        next_question = scores.get_item(
+            Key={"question_id": 'q1'}
+        )['Item']['question']
+    elif inserted_question == 'q1':
         next_question = scores.get_item(
             Key={"question_id": 'q2'}
         )['Item']['question']
@@ -58,6 +68,22 @@ def get_next_question(inserted_question):
         next_question = scores.get_item(
             Key={"question_id": 'q5'}
         )['Item']['question']
+    elif inserted_question == 'q5':
+        next_question = scores.get_item(
+            Key={"question_id": 'q6'}
+        )['Item']['question']
+    elif inserted_question == 'q6':
+        next_question = scores.get_item(
+            Key={"question_id": 'q7'}
+        )['Item']['question']
+    elif inserted_question == 'q7':
+        next_question = scores.get_item(
+            Key={"question_id": 'q8'}
+        )['Item']['question']
+    elif inserted_question == 'q8':
+        next_question = scores.get_item(
+            Key={"question_id": 'q9'}
+        )['Item']['question']
     return FlexSendMessage(
         alt_text='Next Question',
         contents=json.loads(next_question)
@@ -66,7 +92,10 @@ def get_next_question(inserted_question):
 def update_score(user_score, answer):
     # 各設問に対するスコアを挿入する
     inserted_question = ''
-    if user_score.scores['q1'] is None:
+    if user_score.scores['q0'] is None:
+        score = get_result('q0', answer)
+        inserted_question = 'q0'
+    elif user_score.scores['q1'] is None:
         score = get_result('q1', answer)
         inserted_question = 'q1'
     elif user_score.scores['q2'] is None:
@@ -81,6 +110,18 @@ def update_score(user_score, answer):
     elif user_score.scores['q5'] is None:
         score = get_result('q5', answer)
         inserted_question = 'q5'
+    elif user_score.scores['q6'] is None:
+        score = get_result('q6', answer)
+        inserted_question = 'q6'
+    elif user_score.scores['q7'] is None:
+        score = get_result('q7', answer)
+        inserted_question = 'q7'
+    elif user_score.scores['q8'] is None:
+        score = get_result('q8', answer)
+        inserted_question = 'q8'
+    elif user_score.scores['q9'] is None:
+        score = get_result('q9', answer)
+        inserted_question = 'q9'
 
     # スコアを更新する
     if inserted_question != '':
@@ -93,11 +134,13 @@ def update_score(user_score, answer):
         result_msg = TextSendMessage(text='正解です')
 
     # 最終問題であれば結果を返す
-    if inserted_question == 'q5':
+    if inserted_question == 'q9':
         result_data = UserScore.get(user_score.line_user_id)
-        total_score = result_data.scores['q1'] + \
+        total_score = result_data.scores['q0'] + result_data.scores['q1'] + \
             result_data.scores['q2'] + result_data.scores['q3'] + \
-            result_data.scores['q4'] + result_data.scores['q5']
+            result_data.scores['q4'] + result_data.scores['q5'] + \
+            result_data.scores['q6'] + result_data.scores['q7'] + \
+            result_data.scores['q8'] + result_data.scores['q9']
         next_msg = TextSendMessage(
             text='以上で問題は終了です\n合計得点は{}点です'.format(total_score))
     else:
@@ -142,7 +185,7 @@ def lambda_handler(event, context):
     # ユーザIDが存在しない場合は登録する
     UserScore(
                 line_user_id=user_id,
-                scores=ScoreMap(q1=None, q2=None, q3=None, q4=None, q5=None)
+                scores=ScoreMap(q0=None, q1=None, q2=None, q3=None, q4=None, q5=None, q6=None, q7=None, q8=None, q9=None)
             ).save()
 
     # 最初の問題を取り出す
