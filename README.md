@@ -1,6 +1,7 @@
 # LINE bot for elderly
 <br>
-## consept (Japanese):<br>
+## concept (Japanese):<br>
+
 https://note.com/soi0707/n/n7fb931bfb5b7
 <br>
 
