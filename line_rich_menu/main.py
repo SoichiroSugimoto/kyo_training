@@ -29,9 +29,9 @@ if __name__ == '__main__':
 
     # リッチメニュー用の画像をアップロード
     image_path= "./img/menu.png"
- 
+
     with open(image_path, 'rb') as f:
-        line_bot.set_rich_menu_image(rich_menu_id, "image/jpeg", f)
+        line_bot.set_rich_menu_image(rich_menu_id, "image/png", f)
 
     line_bot.set_default_rich_menu(rich_menu_id)
     print('Done!')
