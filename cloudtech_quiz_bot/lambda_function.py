@@ -224,7 +224,7 @@ def update_score(user_score, answer):
             result_data.scores[qz7] + result_data.scores[qz8] + \
             result_data.scores[qz9]
         next_msg = TextSendMessage(
-            text='以上で問題は終了です\n合計得点は{}点です'.format(total_score))
+            text='以上で問題は終了です\nお疲れ様でした！！\n合計得点は{}点です'.format(total_score))
     else:
         next_msg = get_next_question(inserted_question)
 
@@ -282,7 +282,7 @@ def lambda_handler(event, context):
             )['Item']['question']
 
     # クイズ開始のメッセージ
-    greet_msg = "AWSにまつわる問題を用意しました。クイズを開始します。"
+    greet_msg = "クイズを開始します。トレーニングをしながら挑戦してみてください！"
     print(greet_msg)
 
     greet_msg = TextSendMessage(
